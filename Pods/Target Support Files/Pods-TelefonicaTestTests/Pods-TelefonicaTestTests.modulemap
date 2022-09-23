@@ -1,0 +1,6 @@
+framework module Pods_TelefonicaTestTests {
+  umbrella header "Pods-TelefonicaTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

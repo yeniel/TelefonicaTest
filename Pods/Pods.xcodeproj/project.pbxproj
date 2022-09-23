@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E19C8E8F0C9B49DEE9AFBA54E0A4733 /* Build configuration list for PBXAggregateTarget "R.swift" */;
+			buildPhases = (
+			);
+			dependencies = (
+				11957C9C282712FD524B8F96B34E21D0 /* PBXTargetDependency */,
+			);
+			name = R.swift;
+		};
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09315CE2EBCF5DEAF440DCB8E936232A /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D31C5CFA72B8219AF8CF372D42D83CA /* UINib+NibResource.swift */; };
+		124A5D92E65616687F9368C76D903842 /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383E253CF98EC34501EC4F515CCF2A2 /* Data+FileResource.swift */; };
+		1591FA7D0193651D0CD74F0ED42FC71E /* Pods-TelefonicaTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6C70DF71C9F5A4D43FCFA118F63C1 /* Pods-TelefonicaTestTests-dummy.m */; };
+		1E3694F0F67070CBED0B5902D4F88077 /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 872EBCB1612DF6EFA60AE10025372ECB /* R.swift.Library-dummy.m */; };
+		266A4B9BA2ADEDC771C26ADD85365129 /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E295B116DA367ECD1EF53CEBAFB3512 /* NibResource+UIKit.swift */; };
+		2C113501857381D700673AE7E280FD7F /* Pods-TelefonicaTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B108B1C305B765846E0B827A6763A4 /* Pods-TelefonicaTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8CCCB10C95385ED8419279CB2B84E1 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F53260580540C59500B62E1FED5036 /* UIViewController+NibResource.swift */; };
+		41D1A12E7340287BE1BEE5B808D1ED1C /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD26321BFCC84EAD04488F8C2D879C /* FileResource.swift */; };
+		49DC0BBE803BEE11429153F53FB42A5B /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DE9D05F6FEF875A04A696FFFAE08E /* Identifier.swift */; };
+		5344A3EF9278070EFB94E771AB341E6E /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269823F0BEAB063ADD40E089592DCF2 /* StoryboardResource.swift */; };
+		53731BCC13E44C927EB7A9899E732A3C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4FB0DA3EE6584916D8BEBBE332931 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		595265698E23F7164E1065F47C8DA2D9 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE93A60D1CF7CED25AA2E2C6E64A13 /* ColorResource.swift */; };
+		5CE0AE3D1BAC4639AA21BAD23A0ADC35 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A9FED82872F45C8E095C1DF1017B3 /* Validatable.swift */; };
+		5DC2760ED2A298098158D963E92B838E /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC983D2DD015A8DF8C87A5253638E8 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		5EA04687B7783547D7B4FA3A8C797AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		681617EC64D9A363DEBCB43C1552697B /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988905751F3B42ADF3330D761AFC9D91 /* UIColor+ColorResource.swift */; };
+		6A93CA03CEE4648125AB94503E83F559 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB682860459DE67CCFF3F26E72DE7BC /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		6CC93189EF87CE12E034E799F84B462D /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574450C52E9AEE4205BC7DC6DD9E0CE /* FontResource.swift */; };
+		6F09876B99CB613F78EB6C0154338B75 /* Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A500C7615A8F1BBD0D68C1232611C1D7 /* Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5628E42E6372387E64105D89D64069 /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA00E4E262642161D2C6009D74E367 /* UIStoryboard+StoryboardResource.swift */; };
+		842066B2127BE337028AB0FE1C626AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		914C7871DB712EB3733F26E604445B09 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E58B6FB50E977EF1855473FE7C675D /* UIImage+ImageResource.swift */; };
+		96B49342E340CC463C5EFD11F5397E91 /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482DC38E118992B6B877E56C9647ABBC /* UITableView+ReuseIdentifierProtocol.swift */; };
+		A48247B9F287D400103B343A8D351AE9 /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A558898F9492FA1356B73399118B77 /* NibResource.swift */; };
+		A554A9F30DC36860566648485FBD4BD3 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 955FEBD6408C318EC2A15FEF62C99672 /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC330D235C80EBA1B158F68CE25EF0F9 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A961306F8707F29572E6ECFCCB612F6 /* StringResource.swift */; };
+		B87D991E0E2993DFBA053A11421D169D /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C87C9A77026DA43D56F735A0E2BAEA /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		BB4046A6684F5802F5ED42F63C79C562 /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A09934668AD244F6B7AFAB48663950 /* UIFont+FontResource.swift */; };
+		BBA352880FDFF50C95E313FC5064FD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0607C06C4E7C781055AB5A1DA485F53 /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C0DA04773A653BE1519E0EB2A7010F /* StoryboardSegueIdentifierProtocol.swift */; };
+		C18F87BCE0D71063A79A8C425E605300 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7063DB749AFBD1903D5A896187E8E /* StoryboardViewControllerResource.swift */; };
+		C3C87ACD9E1205A5D121E791ACE96512 /* Bundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77C2F26E9894938A810D8082AA66D3 /* Bundle+FileResource.swift */; };
+		C6E0A1F28B4C23C1A37B6C61B0DF743E /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DDA1B5D3B372EB9101E19C230F6492 /* ReuseIdentifierProtocol.swift */; };
+		D15B0830FF789527D90AED82303F1BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D88E29B17EFB0F4768871A6EA433F1F3 /* Pods-TelefonicaTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336CFCC36085515097CF5DE235119A3F /* Pods-TelefonicaTest-dummy.m */; };
+		E35A1C469D4C543450D7D3D29C56333E /* Pods-TelefonicaTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D89CD131235362020EEFFA089512BF /* Pods-TelefonicaTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E81FAEC52BA930F07024C1714E3F866D /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3945BF97B3A7F618FBD33106ED1D4CC4 /* ImageResource.swift */; };
+		EE3D02C4C2EC86429D60B3345A7C3CB9 /* Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE558951E02E785372283E3C96609D6 /* Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m */; };
+		F72076A4E81C1A77CBE304C93CE23E7F /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF786F0D3B3D7F86E6568B3D5651A9 /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2070F1A6A86F8AA14297E7B491DCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12748D8506CB48696BD90F2CA4F4E38;
+			remoteInfo = R.swift.Library;
+		};
+		28F42C4C6C2086F4C41ACB588175FB1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		3472B5C34FA766AFD4E12282CF71EC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12748D8506CB48696BD90F2CA4F4E38;
+			remoteInfo = R.swift.Library;
+		};
+		6C6D11F5B3720A9CCA8E69057348490B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12748D8506CB48696BD90F2CA4F4E38;
+			remoteInfo = R.swift.Library;
+		};
+		9F6125E0DDD8F45FCA6087FE004754F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		A5E9E191F02994BBF249BBEE9FD7594E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372F18460839660AC25E78A76E42338F;
+			remoteInfo = "Pods-TelefonicaTest";
+		};
+		A65411299CC8767234122052252014C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		D9418AEBA82E7D78B189A94B440AB78A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C87C9A77026DA43D56F735A0E2BAEA /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
+		0E295B116DA367ECD1EF53CEBAFB3512 /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
+		10A558898F9492FA1356B73399118B77 /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
+		129A9FED82872F45C8E095C1DF1017B3 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
+		12F53260580540C59500B62E1FED5036 /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
+		1E510E856F7FB30FAF5325695CF4AC00 /* Pods-TelefonicaTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		25C7063DB749AFBD1903D5A896187E8E /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = Library/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		28545899EF9782BBC84BB10680A80DD5 /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		2FEEB97383D3EDCC90466A1E15D3A8FA /* Pods-TelefonicaTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TelefonicaTestTests"; path = Pods_TelefonicaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336CFCC36085515097CF5DE235119A3F /* Pods-TelefonicaTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelefonicaTest-dummy.m"; sourceTree = "<group>"; };
+		345A68BDB696342FF437CEAF874D5B08 /* Pods-TelefonicaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35E58B6FB50E977EF1855473FE7C675D /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "Library/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
+		3945BF97B3A7F618FBD33106ED1D4CC4 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Library/Core/ImageResource.swift; sourceTree = "<group>"; };
+		479DE9D05F6FEF875A04A696FFFAE08E /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
+		482DC38E118992B6B877E56C9647ABBC /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		48C0DA04773A653BE1519E0EB2A7010F /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = Library/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
+		4A2A62A28D064828182B522C5F487292 /* Pods-TelefonicaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTest.release.xcconfig"; sourceTree = "<group>"; };
+		4A961306F8707F29572E6ECFCCB612F6 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Library/Core/StringResource.swift; sourceTree = "<group>"; };
+		4FAD26321BFCC84EAD04488F8C2D879C /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
+		585B992961DECFF15C158113F5065D1D /* Pods-TelefonicaTest-TelefonicaTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelefonicaTest-TelefonicaTestUITests.modulemap"; sourceTree = "<group>"; };
+		677A72F618CCB012A94AB73E466B3CF7 /* Pods-TelefonicaTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelefonicaTestTests.modulemap"; sourceTree = "<group>"; };
+		6C5D85BD8E7837029EBEFD43AB09F48E /* Pods-TelefonicaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6D31C5CFA72B8219AF8CF372D42D83CA /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
+		6FF996AA8B72B04A1FE110DBF7F64373 /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
+		70B108B1C305B765846E0B827A6763A4 /* Pods-TelefonicaTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelefonicaTestTests-umbrella.h"; sourceTree = "<group>"; };
+		70EA00E4E262642161D2C6009D74E367 /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B067C5520F6ED0BAD17E435B650207 /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
+		76FE93A60D1CF7CED25AA2E2C6E64A13 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
+		7EAC983D2DD015A8DF8C87A5253638E8 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
+		811BBEA6A367ABD0636B9E97A531294E /* Pods-TelefonicaTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTest-Info.plist"; sourceTree = "<group>"; };
+		8383E253CF98EC34501EC4F515CCF2A2 /* Data+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileResource.swift"; path = "Library/Foundation/Data+FileResource.swift"; sourceTree = "<group>"; };
+		85491D86210AF5E8A114F05A8491F46D /* Pods-TelefonicaTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		872EBCB1612DF6EFA60AE10025372ECB /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
+		88229AA35330541176F67B338C2C01CA /* Pods-TelefonicaTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TelefonicaTest.modulemap"; sourceTree = "<group>"; };
+		896DD6A88A0DF0E00FFC5CBE57087944 /* Pods-TelefonicaTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelefonicaTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8992E9D1B24324903CD07877B5671A58 /* R.swift.Library-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift.Library-Info.plist"; sourceTree = "<group>"; };
+		8A08C643FCC72E4D919A269FBC32B26E /* Pods-TelefonicaTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTestTests-Info.plist"; sourceTree = "<group>"; };
+		8AB6C70DF71C9F5A4D43FCFA118F63C1 /* Pods-TelefonicaTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelefonicaTestTests-dummy.m"; sourceTree = "<group>"; };
+		8BE30AB774C2916D532B6304843D8676 /* Pods-TelefonicaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		9269823F0BEAB063ADD40E089592DCF2 /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
+		939FB282CC364735C3136CBBA96A4416 /* R.swift.Library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-prefix.pch"; sourceTree = "<group>"; };
+		955FEBD6408C318EC2A15FEF62C99672 /* R.swift.Library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-umbrella.h"; sourceTree = "<group>"; };
+		988905751F3B42ADF3330D761AFC9D91 /* UIColor+ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+ColorResource.swift"; path = "Library/UIKit/UIColor+ColorResource.swift"; sourceTree = "<group>"; };
+		9D03A506C2659D31C15F56574A5C77B2 /* R.swift.Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA4FB0DA3EE6584916D8BEBBE332931 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		A2D89CD131235362020EEFFA089512BF /* Pods-TelefonicaTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelefonicaTest-umbrella.h"; sourceTree = "<group>"; };
+		A500C7615A8F1BBD0D68C1232611C1D7 /* Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		A81C9BC5586826A0D2E1A1C17B5872EE /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD28716AB33DF00BFE1C0E97F827D2A4 /* Pods-TelefonicaTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelefonicaTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B098409A42F5CDF22A877933B9696A29 /* Pods-TelefonicaTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TelefonicaTest"; path = Pods_TelefonicaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F94F94801F4A448449E63735FBCA30 /* Pods-TelefonicaTest-TelefonicaTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TelefonicaTest-TelefonicaTestUITests"; path = Pods_TelefonicaTest_TelefonicaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD216499D2ADE0C0C69F94E309C3282C /* Pods-TelefonicaTest-TelefonicaTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTest-TelefonicaTestUITests-Info.plist"; sourceTree = "<group>"; };
+		BDE6AD0C11E77301B52B67C2608EC144 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		BEE5576D19664830ADBBC1EE71098F21 /* R.swift.Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.release.xcconfig; sourceTree = "<group>"; };
+		CA4E3B66CE4D02048C77392B64FD0ABB /* R.swift.Library */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = R.swift.Library; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE558951E02E785372283E3C96609D6 /* Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m"; sourceTree = "<group>"; };
+		D90B61D9C2913E9354F31619121BC8D6 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		D9A09934668AD244F6B7AFAB48663950 /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
+		DDBF786F0D3B3D7F86E6568B3D5651A9 /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		DE77C2F26E9894938A810D8082AA66D3 /* Bundle+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FileResource.swift"; path = "Library/Foundation/Bundle+FileResource.swift"; sourceTree = "<group>"; };
+		E27F8EBF5FF2DD83C4FC7D24A6A5FB14 /* Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E574450C52E9AEE4205BC7DC6DD9E0CE /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
+		E8DDA1B5D3B372EB9101E19C230F6492 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		EEB682860459DE67CCFF3F26E72DE7BC /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
+		F3281536F7279E3D29D532A7255307DC /* Pods-TelefonicaTest-TelefonicaTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TelefonicaTest-TelefonicaTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F76B7CD6EA3BA7CF8C5897BF5532A172 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD763E864680C5BBA628D6D1CC0870FD /* Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFD18143DFF4DAA56AEC7183A6A79E58 /* Pods-TelefonicaTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TelefonicaTest-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11962E632AF4F4DE9C5055F1A304C996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA352880FDFF50C95E313FC5064FD77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82001E5BAC132FE232B2C84BDB33028F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15B0830FF789527D90AED82303F1BCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805B70D4035AF5F39CC8BAF08438074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA04687B7783547D7B4FA3A8C797AC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F0588D21B74B28967486FA681A55F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842066B2127BE337028AB0FE1C626AE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0AC15B75ABE5E80FC59AECF6FA3E08 /* R.swift.Library */ = {
+			isa = PBXGroup;
+			children = (
+				DE77C2F26E9894938A810D8082AA66D3 /* Bundle+FileResource.swift */,
+				76FE93A60D1CF7CED25AA2E2C6E64A13 /* ColorResource.swift */,
+				8383E253CF98EC34501EC4F515CCF2A2 /* Data+FileResource.swift */,
+				4FAD26321BFCC84EAD04488F8C2D879C /* FileResource.swift */,
+				E574450C52E9AEE4205BC7DC6DD9E0CE /* FontResource.swift */,
+				479DE9D05F6FEF875A04A696FFFAE08E /* Identifier.swift */,
+				3945BF97B3A7F618FBD33106ED1D4CC4 /* ImageResource.swift */,
+				10A558898F9492FA1356B73399118B77 /* NibResource.swift */,
+				0E295B116DA367ECD1EF53CEBAFB3512 /* NibResource+UIKit.swift */,
+				E8DDA1B5D3B372EB9101E19C230F6492 /* ReuseIdentifierProtocol.swift */,
+				9269823F0BEAB063ADD40E089592DCF2 /* StoryboardResource.swift */,
+				08C87C9A77026DA43D56F735A0E2BAEA /* StoryboardResourceWithInitialController+UIKit.swift */,
+				48C0DA04773A653BE1519E0EB2A7010F /* StoryboardSegueIdentifierProtocol.swift */,
+				25C7063DB749AFBD1903D5A896187E8E /* StoryboardViewControllerResource.swift */,
+				4A961306F8707F29572E6ECFCCB612F6 /* StringResource.swift */,
+				7EAC983D2DD015A8DF8C87A5253638E8 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
+				DDBF786F0D3B3D7F86E6568B3D5651A9 /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				988905751F3B42ADF3330D761AFC9D91 /* UIColor+ColorResource.swift */,
+				D9A09934668AD244F6B7AFAB48663950 /* UIFont+FontResource.swift */,
+				35E58B6FB50E977EF1855473FE7C675D /* UIImage+ImageResource.swift */,
+				6D31C5CFA72B8219AF8CF372D42D83CA /* UINib+NibResource.swift */,
+				70EA00E4E262642161D2C6009D74E367 /* UIStoryboard+StoryboardResource.swift */,
+				EEB682860459DE67CCFF3F26E72DE7BC /* UIStoryboard+StoryboardViewControllerResource.swift */,
+				482DC38E118992B6B877E56C9647ABBC /* UITableView+ReuseIdentifierProtocol.swift */,
+				12F53260580540C59500B62E1FED5036 /* UIViewController+NibResource.swift */,
+				9FA4FB0DA3EE6584916D8BEBBE332931 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				129A9FED82872F45C8E095C1DF1017B3 /* Validatable.swift */,
+				FB554D8C3B259AC861274C1EF689267D /* Support Files */,
+			);
+			name = R.swift.Library;
+			path = R.swift.Library;
+			sourceTree = "<group>";
+		};
+		347CF3EDB1F23105CB7D85AC12BB17C2 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				D1E68C268B02FCA610B3205B472A9F7B /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		39AE00A73F7103D4CAA6440E7FC3CB5D /* Pods-TelefonicaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				677A72F618CCB012A94AB73E466B3CF7 /* Pods-TelefonicaTestTests.modulemap */,
+				896DD6A88A0DF0E00FFC5CBE57087944 /* Pods-TelefonicaTestTests-acknowledgements.markdown */,
+				85491D86210AF5E8A114F05A8491F46D /* Pods-TelefonicaTestTests-acknowledgements.plist */,
+				8AB6C70DF71C9F5A4D43FCFA118F63C1 /* Pods-TelefonicaTestTests-dummy.m */,
+				8A08C643FCC72E4D919A269FBC32B26E /* Pods-TelefonicaTestTests-Info.plist */,
+				70B108B1C305B765846E0B827A6763A4 /* Pods-TelefonicaTestTests-umbrella.h */,
+				345A68BDB696342FF437CEAF874D5B08 /* Pods-TelefonicaTestTests.debug.xcconfig */,
+				8BE30AB774C2916D532B6304843D8676 /* Pods-TelefonicaTestTests.release.xcconfig */,
+			);
+			name = "Pods-TelefonicaTestTests";
+			path = "Target Support Files/Pods-TelefonicaTestTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76A883CB4EE26715F1120100CAD9DB62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B098409A42F5CDF22A877933B9696A29 /* Pods-TelefonicaTest */,
+				B1F94F94801F4A448449E63735FBCA30 /* Pods-TelefonicaTest-TelefonicaTestUITests */,
+				2FEEB97383D3EDCC90466A1E15D3A8FA /* Pods-TelefonicaTestTests */,
+				CA4E3B66CE4D02048C77392B64FD0ABB /* R.swift.Library */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E6B0C0F15DA481788CBAE3D35C82B99 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				A01D68BDD7ED44BF5E4373D5001A0751 /* Support Files */,
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		A01D68BDD7ED44BF5E4373D5001A0751 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FF996AA8B72B04A1FE110DBF7F64373 /* R.swift.debug.xcconfig */,
+				28545899EF9782BBC84BB10680A80DD5 /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D86232FA18BC9125D1CAA0FDF8DC0B5D /* Pods */,
+				76A883CB4EE26715F1120100CAD9DB62 /* Products */,
+				E75BDD455A1235F40BEF29E0655A4FA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E68C268B02FCA610B3205B472A9F7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6AD0C11E77301B52B67C2608EC144 /* SwiftLint.debug.xcconfig */,
+				D90B61D9C2913E9354F31619121BC8D6 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D86232FA18BC9125D1CAA0FDF8DC0B5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B0C0F15DA481788CBAE3D35C82B99 /* R.swift */,
+				0C0AC15B75ABE5E80FC59AECF6FA3E08 /* R.swift.Library */,
+				347CF3EDB1F23105CB7D85AC12BB17C2 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E75BDD455A1235F40BEF29E0655A4FA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF68FC2B2FC9CAFD06F5107181DE8F2 /* Pods-TelefonicaTest */,
+				EAC2FABE58D763C3DD8D134AD63721D2 /* Pods-TelefonicaTest-TelefonicaTestUITests */,
+				39AE00A73F7103D4CAA6440E7FC3CB5D /* Pods-TelefonicaTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EAC2FABE58D763C3DD8D134AD63721D2 /* Pods-TelefonicaTest-TelefonicaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585B992961DECFF15C158113F5065D1D /* Pods-TelefonicaTest-TelefonicaTestUITests.modulemap */,
+				E27F8EBF5FF2DD83C4FC7D24A6A5FB14 /* Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.markdown */,
+				FD763E864680C5BBA628D6D1CC0870FD /* Pods-TelefonicaTest-TelefonicaTestUITests-acknowledgements.plist */,
+				CAE558951E02E785372283E3C96609D6 /* Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m */,
+				F3281536F7279E3D29D532A7255307DC /* Pods-TelefonicaTest-TelefonicaTestUITests-frameworks.sh */,
+				BD216499D2ADE0C0C69F94E309C3282C /* Pods-TelefonicaTest-TelefonicaTestUITests-Info.plist */,
+				A500C7615A8F1BBD0D68C1232611C1D7 /* Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h */,
+				F76B7CD6EA3BA7CF8C5897BF5532A172 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */,
+				A81C9BC5586826A0D2E1A1C17B5872EE /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */,
+			);
+			name = "Pods-TelefonicaTest-TelefonicaTestUITests";
+			path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests";
+			sourceTree = "<group>";
+		};
+		FB554D8C3B259AC861274C1EF689267D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73B067C5520F6ED0BAD17E435B650207 /* R.swift.Library.modulemap */,
+				872EBCB1612DF6EFA60AE10025372ECB /* R.swift.Library-dummy.m */,
+				8992E9D1B24324903CD07877B5671A58 /* R.swift.Library-Info.plist */,
+				939FB282CC364735C3136CBBA96A4416 /* R.swift.Library-prefix.pch */,
+				955FEBD6408C318EC2A15FEF62C99672 /* R.swift.Library-umbrella.h */,
+				9D03A506C2659D31C15F56574A5C77B2 /* R.swift.Library.debug.xcconfig */,
+				BEE5576D19664830ADBBC1EE71098F21 /* R.swift.Library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift.Library";
+			sourceTree = "<group>";
+		};
+		FBF68FC2B2FC9CAFD06F5107181DE8F2 /* Pods-TelefonicaTest */ = {
+			isa = PBXGroup;
+			children = (
+				88229AA35330541176F67B338C2C01CA /* Pods-TelefonicaTest.modulemap */,
+				AD28716AB33DF00BFE1C0E97F827D2A4 /* Pods-TelefonicaTest-acknowledgements.markdown */,
+				1E510E856F7FB30FAF5325695CF4AC00 /* Pods-TelefonicaTest-acknowledgements.plist */,
+				336CFCC36085515097CF5DE235119A3F /* Pods-TelefonicaTest-dummy.m */,
+				FFD18143DFF4DAA56AEC7183A6A79E58 /* Pods-TelefonicaTest-frameworks.sh */,
+				811BBEA6A367ABD0636B9E97A531294E /* Pods-TelefonicaTest-Info.plist */,
+				A2D89CD131235362020EEFFA089512BF /* Pods-TelefonicaTest-umbrella.h */,
+				6C5D85BD8E7837029EBEFD43AB09F48E /* Pods-TelefonicaTest.debug.xcconfig */,
+				4A2A62A28D064828182B522C5F487292 /* Pods-TelefonicaTest.release.xcconfig */,
+			);
+			name = "Pods-TelefonicaTest";
+			path = "Target Support Files/Pods-TelefonicaTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39102FF0431AFB2B00BFC269B129B5A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C113501857381D700673AE7E280FD7F /* Pods-TelefonicaTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2C5572CA4F81BF228C159C4F136104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F09876B99CB613F78EB6C0154338B75 /* Pods-TelefonicaTest-TelefonicaTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFDE05C1DAC1106B1352F579706A70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35A1C469D4C543450D7D3D29C56333E /* Pods-TelefonicaTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996C9EACE4E9EB9C1FA048CF2961C206 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A554A9F30DC36860566648485FBD4BD3 /* R.swift.Library-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0357B14626AF0AF580688CCEE76372ED /* Pods-TelefonicaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547D9F3EC18EF811BD30E0E99076061E /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTestTests" */;
+			buildPhases = (
+				39102FF0431AFB2B00BFC269B129B5A4 /* Headers */,
+				A85AFC3F0271ED42A01DCF1156879346 /* Sources */,
+				82001E5BAC132FE232B2C84BDB33028F /* Frameworks */,
+				02965464B878F12F9929EBB90AFC05DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BBC9F46954B066BF33F7A5363EA3CC /* PBXTargetDependency */,
+			);
+			name = "Pods-TelefonicaTestTests";
+			productName = Pods_TelefonicaTestTests;
+			productReference = 2FEEB97383D3EDCC90466A1E15D3A8FA /* Pods-TelefonicaTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		372F18460839660AC25E78A76E42338F /* Pods-TelefonicaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD965E408F6FD4F71284CE2EA0BE06D /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTest" */;
+			buildPhases = (
+				7ABFDE05C1DAC1106B1352F579706A70 /* Headers */,
+				429C289250F39987B05B724567F32C17 /* Sources */,
+				A805B70D4035AF5F39CC8BAF08438074 /* Frameworks */,
+				6DF053A772C8101267F29C28D2CB6AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6FBDAFD5C8EF6FBECA2D7C70BA12152 /* PBXTargetDependency */,
+				C1868616BC1ABBE4FD2E79AA4D84283D /* PBXTargetDependency */,
+				11F7E402C8DF7DE97495FB6DDA8CABF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TelefonicaTest";
+			productName = Pods_TelefonicaTest;
+			productReference = B098409A42F5CDF22A877933B9696A29 /* Pods-TelefonicaTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0254780CD71F06AB19D4EDDBF10CDFB /* Pods-TelefonicaTest-TelefonicaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC018AE37800E0631F06676915614A5 /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTest-TelefonicaTestUITests" */;
+			buildPhases = (
+				6F2C5572CA4F81BF228C159C4F136104 /* Headers */,
+				B0416B01AE5A4F11D1794FF785E085E8 /* Sources */,
+				11962E632AF4F4DE9C5055F1A304C996 /* Frameworks */,
+				28229B8D8AAAEFD6405B5364952F9316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFC4C90E44466F1D0F54BC65411F67A /* PBXTargetDependency */,
+				E6F5976829FD2C64C7B0F21DAB5EF565 /* PBXTargetDependency */,
+				5A3A0DD77AA266BABA973A4C80DAB482 /* PBXTargetDependency */,
+			);
+			name = "Pods-TelefonicaTest-TelefonicaTestUITests";
+			productName = Pods_TelefonicaTest_TelefonicaTestUITests;
+			productReference = B1F94F94801F4A448449E63735FBCA30 /* Pods-TelefonicaTest-TelefonicaTestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3C7E4D39885F023E8C99674F30125D /* Build configuration list for PBXNativeTarget "R.swift.Library" */;
+			buildPhases = (
+				996C9EACE4E9EB9C1FA048CF2961C206 /* Headers */,
+				8241CA31F915DBF4E04505BD52E5F779 /* Sources */,
+				D7F0588D21B74B28967486FA681A55F6 /* Frameworks */,
+				7285FACD8609EE202C634A140FD07898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift.Library;
+			productName = Rswift;
+			productReference = CA4E3B66CE4D02048C77392B64FD0ABB /* R.swift.Library */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 76A883CB4EE26715F1120100CAD9DB62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372F18460839660AC25E78A76E42338F /* Pods-TelefonicaTest */,
+				B0254780CD71F06AB19D4EDDBF10CDFB /* Pods-TelefonicaTest-TelefonicaTestUITests */,
+				0357B14626AF0AF580688CCEE76372ED /* Pods-TelefonicaTestTests */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+				B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02965464B878F12F9929EBB90AFC05DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28229B8D8AAAEFD6405B5364952F9316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF053A772C8101267F29C28D2CB6AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7285FACD8609EE202C634A140FD07898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429C289250F39987B05B724567F32C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88E29B17EFB0F4768871A6EA433F1F3 /* Pods-TelefonicaTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8241CA31F915DBF4E04505BD52E5F779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C87ACD9E1205A5D121E791ACE96512 /* Bundle+FileResource.swift in Sources */,
+				595265698E23F7164E1065F47C8DA2D9 /* ColorResource.swift in Sources */,
+				124A5D92E65616687F9368C76D903842 /* Data+FileResource.swift in Sources */,
+				41D1A12E7340287BE1BEE5B808D1ED1C /* FileResource.swift in Sources */,
+				6CC93189EF87CE12E034E799F84B462D /* FontResource.swift in Sources */,
+				49DC0BBE803BEE11429153F53FB42A5B /* Identifier.swift in Sources */,
+				E81FAEC52BA930F07024C1714E3F866D /* ImageResource.swift in Sources */,
+				A48247B9F287D400103B343A8D351AE9 /* NibResource.swift in Sources */,
+				266A4B9BA2ADEDC771C26ADD85365129 /* NibResource+UIKit.swift in Sources */,
+				1E3694F0F67070CBED0B5902D4F88077 /* R.swift.Library-dummy.m in Sources */,
+				C6E0A1F28B4C23C1A37B6C61B0DF743E /* ReuseIdentifierProtocol.swift in Sources */,
+				5344A3EF9278070EFB94E771AB341E6E /* StoryboardResource.swift in Sources */,
+				B87D991E0E2993DFBA053A11421D169D /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				C0607C06C4E7C781055AB5A1DA485F53 /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				C18F87BCE0D71063A79A8C425E605300 /* StoryboardViewControllerResource.swift in Sources */,
+				AC330D235C80EBA1B158F68CE25EF0F9 /* StringResource.swift in Sources */,
+				5DC2760ED2A298098158D963E92B838E /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				F72076A4E81C1A77CBE304C93CE23E7F /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				681617EC64D9A363DEBCB43C1552697B /* UIColor+ColorResource.swift in Sources */,
+				BB4046A6684F5802F5ED42F63C79C562 /* UIFont+FontResource.swift in Sources */,
+				914C7871DB712EB3733F26E604445B09 /* UIImage+ImageResource.swift in Sources */,
+				09315CE2EBCF5DEAF440DCB8E936232A /* UINib+NibResource.swift in Sources */,
+				7B5628E42E6372387E64105D89D64069 /* UIStoryboard+StoryboardResource.swift in Sources */,
+				6A93CA03CEE4648125AB94503E83F559 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				96B49342E340CC463C5EFD11F5397E91 /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				2F8CCCB10C95385ED8419279CB2B84E1 /* UIViewController+NibResource.swift in Sources */,
+				53731BCC13E44C927EB7A9899E732A3C /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				5CE0AE3D1BAC4639AA21BAD23A0ADC35 /* Validatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85AFC3F0271ED42A01DCF1156879346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1591FA7D0193651D0CD74F0ED42FC71E /* Pods-TelefonicaTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0416B01AE5A4F11D1794FF785E085E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3D02C4C2EC86429D60B3345A7C3CB9 /* Pods-TelefonicaTest-TelefonicaTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11957C9C282712FD524B8F96B34E21D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */;
+			targetProxy = 0B2070F1A6A86F8AA14297E7B491DCD9 /* PBXContainerItemProxy */;
+		};
+		11F7E402C8DF7DE97495FB6DDA8CABF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = D9418AEBA82E7D78B189A94B440AB78A /* PBXContainerItemProxy */;
+		};
+		5A3A0DD77AA266BABA973A4C80DAB482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 9F6125E0DDD8F45FCA6087FE004754F0 /* PBXContainerItemProxy */;
+		};
+		8BFC4C90E44466F1D0F54BC65411F67A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 28F42C4C6C2086F4C41ACB588175FB1E /* PBXContainerItemProxy */;
+		};
+		C1868616BC1ABBE4FD2E79AA4D84283D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */;
+			targetProxy = 6C6D11F5B3720A9CCA8E69057348490B /* PBXContainerItemProxy */;
+		};
+		D0BBC9F46954B066BF33F7A5363EA3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TelefonicaTest";
+			target = 372F18460839660AC25E78A76E42338F /* Pods-TelefonicaTest */;
+			targetProxy = A5E9E191F02994BBF249BBEE9FD7594E /* PBXContainerItemProxy */;
+		};
+		E6F5976829FD2C64C7B0F21DAB5EF565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */;
+			targetProxy = 3472B5C34FA766AFD4E12282CF71EC11 /* PBXContainerItemProxy */;
+		};
+		F6FBDAFD5C8EF6FBECA2D7C70BA12152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = A65411299CC8767234122052252014C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3014D38ACB3A582AAD3F1C538107494C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE30AB774C2916D532B6304843D8676 /* Pods-TelefonicaTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTestTests/Pods-TelefonicaTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTestTests/Pods-TelefonicaTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		450245A8A5B247E2783425FC513D6839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5D85BD8E7837029EBEFD43AB09F48E /* Pods-TelefonicaTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		457EC3F217A5456B7678BC64596AB544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2A62A28D064828182B522C5F487292 /* Pods-TelefonicaTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		671C155106F6A36BA49513A176A4DAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345A68BDB696342FF437CEAF874D5B08 /* Pods-TelefonicaTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTestTests/Pods-TelefonicaTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTestTests/Pods-TelefonicaTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78348A99DBE5E833006A6ABF8D54B8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28545899EF9782BBC84BB10680A80DD5 /* R.swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D1FB436AF0325218DEF35A94FBD16EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D03A506C2659D31C15F56574A5C77B2 /* R.swift.Library.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/R.swift.Library-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				PRODUCT_MODULE_NAME = Rswift;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		946C41F1E53FE36D7DAB9670F6B80DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76B7CD6EA3BA7CF8C5897BF5532A172 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90B61D9C2913E9354F31619121BC8D6 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD17B93CF7ADE75483B704E6E4A5692A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF996AA8B72B04A1FE110DBF7F64373 /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF9722C4034F54AF9496FEF9BECD76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE5576D19664830ADBBC1EE71098F21 /* R.swift.Library.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/R.swift.Library-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				PRODUCT_MODULE_NAME = Rswift;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6AD0C11E77301B52B67C2608EC144 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0E8F923E0975BFC81EC2526EB56E54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81C9BC5586826A0D2E1A1C17B5872EE /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3C7E4D39885F023E8C99674F30125D /* Build configuration list for PBXNativeTarget "R.swift.Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1FB436AF0325218DEF35A94FBD16EA /* Debug */,
+				CFF9722C4034F54AF9496FEF9BECD76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547D9F3EC18EF811BD30E0E99076061E /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671C155106F6A36BA49513A176A4DAE6 /* Debug */,
+				3014D38ACB3A582AAD3F1C538107494C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E19C8E8F0C9B49DEE9AFBA54E0A4733 /* Build configuration list for PBXAggregateTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD17B93CF7ADE75483B704E6E4A5692A /* Debug */,
+				78348A99DBE5E833006A6ABF8D54B8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC018AE37800E0631F06676915614A5 /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTest-TelefonicaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946C41F1E53FE36D7DAB9670F6B80DCB /* Debug */,
+				F0E8F923E0975BFC81EC2526EB56E54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD965E408F6FD4F71284CE2EA0BE06D /* Build configuration list for PBXNativeTarget "Pods-TelefonicaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450245A8A5B247E2783425FC513D6839 /* Debug */,
+				457EC3F217A5456B7678BC64596AB544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
