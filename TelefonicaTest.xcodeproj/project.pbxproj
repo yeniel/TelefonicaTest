@@ -10,12 +10,55 @@
 		2760004F87D6F5D850F37996 /* Pods_TelefonicaTest_TelefonicaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AB4762D285721A2001F889 /* Pods_TelefonicaTest_TelefonicaTestUITests.framework */; };
 		7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2CF8D538921F4E8D969022 /* Pods_TelefonicaTestTests.framework */; };
 		A7CCD8768AA30E490F39C57C /* Pods_TelefonicaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49677710CBC5E726EDA13349 /* Pods_TelefonicaTest.framework */; };
+		FEAF0B7828DF89FD00998A0D /* GetChannelsUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0B7728DF89FD00998A0D /* GetChannelsUseCaseSpec.swift */; };
+		FEAF0B7928DF8A5400998A0D /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
+		FEAF0B7A28DF8A5400998A0D /* GetLiveProgramUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */; };
+		FEAF0B7B28DF8A5400998A0D /* GetCurrentTimeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */; };
+		FEAF0B7C28DF8A5400998A0D /* GetChannelsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2E28DE52BB0052EF2E /* GetChannelsUseCase.swift */; };
+		FEAF0B7D28DF8BC600998A0D /* ChannelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */; };
+		FEAF0B7E28DF8BC600998A0D /* ChannelApiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */; };
+		FEAF0B7F28DF8BC600998A0D /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */; };
+		FEAF0B8028DF8BCA00998A0D /* ChannelListDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3228DE57600052EF2E /* ChannelListDto.swift */; };
+		FEAF0B8128DF8BCA00998A0D /* ChannelDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1728DDE5FE0052EF2E /* ChannelDto.swift */; };
+		FEAF0B8228DF8BCA00998A0D /* CurrentTimeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */; };
+		FEAF0B8328DF8BCA00998A0D /* ChannelLiveProgramDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1928DDE6070052EF2E /* ChannelLiveProgramDto.swift */; };
+		FEAF0B8428DF8BCA00998A0D /* LiveProgramDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1C28DDF0F90052EF2E /* LiveProgramDto.swift */; };
+		FEAF0B8528DF8BCF00998A0D /* LiveProgramRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2828DDF4BE0052EF2E /* LiveProgramRepository.swift */; };
+		FEAF0B8628DF8BCF00998A0D /* LiveProgramDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2428DDF38E0052EF2E /* LiveProgramDataSource.swift */; };
+		FEAF0B8728DF8BCF00998A0D /* LiveProgramApiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2628DDF3DC0052EF2E /* LiveProgramApiDataSource.swift */; };
+		FEAF0B8828DF8BD200998A0D /* DtoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2B28DDF6880052EF2E /* DtoMapper.swift */; };
+		FEAF0B8928DF8BD600998A0D /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0C28DDE1C30052EF2E /* ClockService.swift */; };
+		FEAF0B8A28DF8BDB00998A0D /* LiveProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2228DDF2530052EF2E /* LiveProgram.swift */; };
+		FEAF0B8B28DF8BDB00998A0D /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0E28DDE2070052EF2E /* Clock.swift */; };
+		FEAF0B8C28DF8BDB00998A0D /* TelefonicaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */; };
+		FEAF0B8D28DF8BDB00998A0D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0628DDE0100052EF2E /* Channel.swift */; };
+		FEAF0B8E28DF8BDB00998A0D /* ProgramCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */; };
+		FEAF0B8F28DF8BDB00998A0D /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2028DDF1C20052EF2E /* Program.swift */; };
+		FEAF0B9228DF8C1A00998A0D /* ObjectMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0B9128DF8C1A00998A0D /* ObjectMother.swift */; };
+		FEAF0B9428DF91AA00998A0D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */; };
+		FEAF0B9528DF91AD00998A0D /* UrlSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0128DDD9B40052EF2E /* UrlSessionApiClient.swift */; };
+		FEAF0BA328DF91EA00998A0D /* LiveProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03128DF3FAA00AFD2CB /* LiveProgramView.swift */; };
+		FEAF0BA428DF91EA00998A0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03B28DF49C800AFD2CB /* Extensions.swift */; };
+		FEAF0BA528DF91EA00998A0D /* LiveProgramUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */; };
+		FEAF0BA628DF91EA00998A0D /* ProgramProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */; };
+		FEAF0BA728DF91EA00998A0D /* LiveProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03328DF3FB300AFD2CB /* LiveProgramViewModel.swift */; };
+		FEAF0BA828DF91EA00998A0D /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1128DDE3B20052EF2E /* Factory.swift */; };
+		FEAF0BA928DF91EA00998A0D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */; };
+		FEAF0BAA28DF91EA00998A0D /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */; };
+		FEAF0BAB28DF91EA00998A0D /* UIModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4928DE6C9D0052EF2E /* UIModelMapper.swift */; };
+		FEAF0BAC28DF91EA00998A0D /* TelefonicaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */; };
+		FEAF0BAD28DF91EA00998A0D /* ScreenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */; };
+		FEAF0BAE28DF91EA00998A0D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */; };
+		FEAF0BAF28DF91EA00998A0D /* ChannelUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4C28DE6D280052EF2E /* ChannelUIModel.swift */; };
+		FEAF0BB028DF91EA00998A0D /* ChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */; };
+		FEAF0BB228DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB128DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift */; };
+		FEAF0BB528DFB2EC00998A0D /* TelefonicaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB328DFB2EC00998A0D /* TelefonicaTestUITests.swift */; };
+		FEAF0BB628DFB2EC00998A0D /* TelefonicaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB428DFB2EC00998A0D /* TelefonicaTestUITestsLaunchTests.swift */; };
+		FEAF0BB828DFB77800998A0D /* GetCurrentTimeUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB728DFB77700998A0D /* GetCurrentTimeUseCaseSpec.swift */; };
+		FEAF0BBA28DFB93400998A0D /* IsProgramAvailableUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB928DFB93400998A0D /* IsProgramAvailableUseCaseSpec.swift */; };
 		FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */; };
 		FED2EEC128DDC9570052EF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC028DDC9570052EF2E /* Assets.xcassets */; };
 		FED2EEC428DDC9570052EF2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC328DDC9570052EF2E /* Preview Assets.xcassets */; };
-		FED2EED328DDC9580052EF2E /* TelefonicaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EED228DDC9580052EF2E /* TelefonicaTestTests.swift */; };
-		FED2EEDD28DDC9580052EF2E /* TelefonicaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEDC28DDC9580052EF2E /* TelefonicaTestUITests.swift */; };
-		FED2EEDF28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEDE28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift */; };
 		FED2EEEF28DDCE040052EF2E /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEEE28DDCE040052EF2E /* Quick */; };
 		FED2EEF228DDCE240052EF2E /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF128DDCE240052EF2E /* Nimble */; };
 		FED2EEF528DDCE520052EF2E /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF428DDCE520052EF2E /* Factory */; };
@@ -88,15 +131,19 @@
 		A713F2CA0881BAC0D18B4319 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD11D5C0D4B71427271929A /* Pods-TelefonicaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.release.xcconfig"; sourceTree = "<group>"; };
 		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEAF0B7728DF89FD00998A0D /* GetChannelsUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChannelsUseCaseSpec.swift; sourceTree = "<group>"; };
+		FEAF0B9128DF8C1A00998A0D /* ObjectMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMother.swift; sourceTree = "<group>"; };
+		FEAF0BB128DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLiveProgramUseCaseSpec.swift; sourceTree = "<group>"; };
+		FEAF0BB328DFB2EC00998A0D /* TelefonicaTestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITests.swift; sourceTree = "<group>"; };
+		FEAF0BB428DFB2EC00998A0D /* TelefonicaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEAF0BB728DFB77700998A0D /* GetCurrentTimeUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentTimeUseCaseSpec.swift; sourceTree = "<group>"; };
+		FEAF0BB928DFB93400998A0D /* IsProgramAvailableUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsProgramAvailableUseCaseSpec.swift; sourceTree = "<group>"; };
 		FED2EEB928DDC9540052EF2E /* TelefonicaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelefonicaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestApp.swift; sourceTree = "<group>"; };
 		FED2EEC028DDC9570052EF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED2EEC328DDC9570052EF2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FED2EECE28DDC9580052EF2E /* TelefonicaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefonicaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FED2EED228DDC9580052EF2E /* TelefonicaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestTests.swift; sourceTree = "<group>"; };
 		FED2EED828DDC9580052EF2E /* TelefonicaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefonicaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FED2EEDC28DDC9580052EF2E /* TelefonicaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITests.swift; sourceTree = "<group>"; };
-		FED2EEDE28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaError.swift; sourceTree = "<group>"; };
 		FED2EF0128DDD9B40052EF2E /* UrlSessionApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionApiClient.swift; sourceTree = "<group>"; };
@@ -192,6 +239,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FEAF0B7328DF89A000998A0D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FEAF0B7428DF89A400998A0D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF0B7628DF89B400998A0D /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FEAF0B7528DF89A600998A0D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FEAF0B7628DF89B400998A0D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF0B7728DF89FD00998A0D /* GetChannelsUseCaseSpec.swift */,
+				FEAF0BB128DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift */,
+				FEAF0BB728DFB77700998A0D /* GetCurrentTimeUseCaseSpec.swift */,
+				FEAF0BB928DFB93400998A0D /* IsProgramAvailableUseCaseSpec.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FEAF0B9028DF8C1000998A0D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF0B9128DF8C1A00998A0D /* ObjectMother.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FED2EEB028DDC9540052EF2E = {
 			isa = PBXGroup;
 			children = (
@@ -239,7 +327,10 @@
 		FED2EED128DDC9580052EF2E /* TelefonicaTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EED228DDC9580052EF2E /* TelefonicaTestTests.swift */,
+				FEAF0B9028DF8C1000998A0D /* Utils */,
+				FEAF0B7528DF89A600998A0D /* Presentation */,
+				FEAF0B7428DF89A400998A0D /* Domain */,
+				FEAF0B7328DF89A000998A0D /* Data */,
 			);
 			path = TelefonicaTestTests;
 			sourceTree = "<group>";
@@ -247,8 +338,8 @@
 		FED2EEDB28DDC9580052EF2E /* TelefonicaTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EEDC28DDC9580052EF2E /* TelefonicaTestUITests.swift */,
-				FED2EEDE28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift */,
+				FEAF0BB328DFB2EC00998A0D /* TelefonicaTestUITests.swift */,
+				FEAF0BB428DFB2EC00998A0D /* TelefonicaTestUITestsLaunchTests.swift */,
 			);
 			path = TelefonicaTestUITests;
 			sourceTree = "<group>";
@@ -531,10 +622,12 @@
 					};
 					FED2EECD28DDC9580052EF2E = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 						TestTargetID = FED2EEB828DDC9540052EF2E;
 					};
 					FED2EED728DDC9580052EF2E = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 						TestTargetID = FED2EEB828DDC9540052EF2E;
 					};
 				};
@@ -730,7 +823,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED2EED328DDC9580052EF2E /* TelefonicaTestTests.swift in Sources */,
+				FEAF0B8828DF8BD200998A0D /* DtoMapper.swift in Sources */,
+				FEAF0B8228DF8BCA00998A0D /* CurrentTimeDto.swift in Sources */,
+				FEAF0BAA28DF91EA00998A0D /* ChannelListView.swift in Sources */,
+				FEAF0BA828DF91EA00998A0D /* Factory.swift in Sources */,
+				FEAF0B7A28DF8A5400998A0D /* GetLiveProgramUseCase.swift in Sources */,
+				FEAF0B8328DF8BCA00998A0D /* ChannelLiveProgramDto.swift in Sources */,
+				FEAF0B7B28DF8A5400998A0D /* GetCurrentTimeUseCase.swift in Sources */,
+				FEAF0B8028DF8BCA00998A0D /* ChannelListDto.swift in Sources */,
+				FEAF0B7928DF8A5400998A0D /* IsProgramAvailableUseCase.swift in Sources */,
+				FEAF0BA428DF91EA00998A0D /* Extensions.swift in Sources */,
+				FEAF0BAB28DF91EA00998A0D /* UIModelMapper.swift in Sources */,
+				FEAF0BBA28DFB93400998A0D /* IsProgramAvailableUseCaseSpec.swift in Sources */,
+				FEAF0B8728DF8BCF00998A0D /* LiveProgramApiDataSource.swift in Sources */,
+				FEAF0BA728DF91EA00998A0D /* LiveProgramViewModel.swift in Sources */,
+				FEAF0B9528DF91AD00998A0D /* UrlSessionApiClient.swift in Sources */,
+				FEAF0B8F28DF8BDB00998A0D /* Program.swift in Sources */,
+				FEAF0BAF28DF91EA00998A0D /* ChannelUIModel.swift in Sources */,
+				FEAF0BB228DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift in Sources */,
+				FEAF0BAE28DF91EA00998A0D /* AppCoordinator.swift in Sources */,
+				FEAF0B7F28DF8BC600998A0D /* ChannelRepository.swift in Sources */,
+				FEAF0B7E28DF8BC600998A0D /* ChannelApiDataSource.swift in Sources */,
+				FEAF0B9428DF91AA00998A0D /* ApiClient.swift in Sources */,
+				FEAF0B8A28DF8BDB00998A0D /* LiveProgram.swift in Sources */,
+				FEAF0BA928DF91EA00998A0D /* MainCoordinator.swift in Sources */,
+				FEAF0B7828DF89FD00998A0D /* GetChannelsUseCaseSpec.swift in Sources */,
+				FEAF0B8428DF8BCA00998A0D /* LiveProgramDto.swift in Sources */,
+				FEAF0BAC28DF91EA00998A0D /* TelefonicaTestApp.swift in Sources */,
+				FEAF0B8D28DF8BDB00998A0D /* Channel.swift in Sources */,
+				FEAF0B8928DF8BD600998A0D /* ClockService.swift in Sources */,
+				FEAF0B8B28DF8BDB00998A0D /* Clock.swift in Sources */,
+				FEAF0BB028DF91EA00998A0D /* ChannelListViewModel.swift in Sources */,
+				FEAF0B8528DF8BCF00998A0D /* LiveProgramRepository.swift in Sources */,
+				FEAF0B9228DF8C1A00998A0D /* ObjectMother.swift in Sources */,
+				FEAF0B8E28DF8BDB00998A0D /* ProgramCategory.swift in Sources */,
+				FEAF0BA628DF91EA00998A0D /* ProgramProgressView.swift in Sources */,
+				FEAF0B7D28DF8BC600998A0D /* ChannelDataSource.swift in Sources */,
+				FEAF0BAD28DF91EA00998A0D /* ScreenStatus.swift in Sources */,
+				FEAF0BB828DFB77800998A0D /* GetCurrentTimeUseCaseSpec.swift in Sources */,
+				FEAF0B8628DF8BCF00998A0D /* LiveProgramDataSource.swift in Sources */,
+				FEAF0B8C28DF8BDB00998A0D /* TelefonicaError.swift in Sources */,
+				FEAF0B7C28DF8A5400998A0D /* GetChannelsUseCase.swift in Sources */,
+				FEAF0B8128DF8BCA00998A0D /* ChannelDto.swift in Sources */,
+				FEAF0BA528DF91EA00998A0D /* LiveProgramUIModel.swift in Sources */,
+				FEAF0BA328DF91EA00998A0D /* LiveProgramView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,8 +874,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED2EEDF28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift in Sources */,
-				FED2EEDD28DDC9580052EF2E /* TelefonicaTestUITests.swift in Sources */,
+				FEAF0BB628DFB2EC00998A0D /* TelefonicaTestUITestsLaunchTests.swift in Sources */,
+				FEAF0BB528DFB2EC00998A0D /* TelefonicaTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,15 +1077,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeniellandestoy.TelefonicaTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelefonicaTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelefonicaTest";
@@ -962,11 +1105,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeniellandestoy.TelefonicaTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -982,14 +1131,21 @@
 			baseConfigurationReference = A713F2CA0881BAC0D18B4319 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeniellandestoy.TelefonicaTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TelefonicaTest;
@@ -1001,10 +1157,16 @@
 			baseConfigurationReference = 8B46786236D3B69CC75A177B /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeniellandestoy.TelefonicaTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

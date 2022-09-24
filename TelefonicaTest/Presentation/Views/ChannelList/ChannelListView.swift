@@ -28,8 +28,7 @@ struct ChannelListView: View {
                 }
             }
             .alert("Unknown Error", isPresented: $viewModel.showError) {
-                Button("OK", role: .cancel) {
-                }
+                Button("OK", role: .cancel) { }
             }
         }
     }
