@@ -11,17 +11,46 @@
 		7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2CF8D538921F4E8D969022 /* Pods_TelefonicaTestTests.framework */; };
 		A7CCD8768AA30E490F39C57C /* Pods_TelefonicaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49677710CBC5E726EDA13349 /* Pods_TelefonicaTest.framework */; };
 		FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */; };
-		FED2EEBF28DDC9550052EF2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBE28DDC9550052EF2E /* ContentView.swift */; };
 		FED2EEC128DDC9570052EF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC028DDC9570052EF2E /* Assets.xcassets */; };
 		FED2EEC428DDC9570052EF2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC328DDC9570052EF2E /* Preview Assets.xcassets */; };
-		FED2EEC628DDC9570052EF2E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEC528DDC9570052EF2E /* Persistence.swift */; };
-		FED2EEC928DDC9570052EF2E /* TelefonicaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEC728DDC9570052EF2E /* TelefonicaTest.xcdatamodeld */; };
 		FED2EED328DDC9580052EF2E /* TelefonicaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EED228DDC9580052EF2E /* TelefonicaTestTests.swift */; };
 		FED2EEDD28DDC9580052EF2E /* TelefonicaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEDC28DDC9580052EF2E /* TelefonicaTestUITests.swift */; };
 		FED2EEDF28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEDE28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift */; };
 		FED2EEEF28DDCE040052EF2E /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEEE28DDCE040052EF2E /* Quick */; };
 		FED2EEF228DDCE240052EF2E /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF128DDCE240052EF2E /* Nimble */; };
 		FED2EEF528DDCE520052EF2E /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF428DDCE520052EF2E /* Factory */; };
+		FED2EEFD28DDD63F0052EF2E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */; };
+		FED2EF0028DDD6E90052EF2E /* TelefonicaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */; };
+		FED2EF0228DDD9B40052EF2E /* UrlSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0128DDD9B40052EF2E /* UrlSessionApiClient.swift */; };
+		FED2EF0528DDDD8F0052EF2E /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */; };
+		FED2EF0728DDE0100052EF2E /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0628DDE0100052EF2E /* Channel.swift */; };
+		FED2EF0D28DDE1C30052EF2E /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0C28DDE1C30052EF2E /* ClockService.swift */; };
+		FED2EF0F28DDE2070052EF2E /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0E28DDE2070052EF2E /* Clock.swift */; };
+		FED2EF1228DDE3B20052EF2E /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1128DDE3B20052EF2E /* Factory.swift */; };
+		FED2EF1428DDE4630052EF2E /* ChannelApiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */; };
+		FED2EF1628DDE4A00052EF2E /* ChannelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */; };
+		FED2EF1828DDE5FE0052EF2E /* ChannelDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1728DDE5FE0052EF2E /* ChannelDto.swift */; };
+		FED2EF1A28DDE6070052EF2E /* ChannelLiveProgramDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1928DDE6070052EF2E /* ChannelLiveProgramDto.swift */; };
+		FED2EF1D28DDF0F90052EF2E /* LiveProgramDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1C28DDF0F90052EF2E /* LiveProgramDto.swift */; };
+		FED2EF1F28DDF1720052EF2E /* ProgramCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */; };
+		FED2EF2128DDF1C20052EF2E /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2028DDF1C20052EF2E /* Program.swift */; };
+		FED2EF2328DDF2530052EF2E /* LiveProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2228DDF2530052EF2E /* LiveProgram.swift */; };
+		FED2EF2528DDF38E0052EF2E /* LiveProgramDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2428DDF38E0052EF2E /* LiveProgramDataSource.swift */; };
+		FED2EF2728DDF3DC0052EF2E /* LiveProgramApiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2628DDF3DC0052EF2E /* LiveProgramApiDataSource.swift */; };
+		FED2EF2928DDF4BE0052EF2E /* LiveProgramRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2828DDF4BE0052EF2E /* LiveProgramRepository.swift */; };
+		FED2EF2C28DDF6880052EF2E /* DtoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2B28DDF6880052EF2E /* DtoMapper.swift */; };
+		FED2EF2F28DE52BB0052EF2E /* GetChannelsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2E28DE52BB0052EF2E /* GetChannelsUseCase.swift */; };
+		FED2EF3128DE54D10052EF2E /* GetLiveProgramUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */; };
+		FED2EF3328DE57600052EF2E /* ChannelListDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3228DE57600052EF2E /* ChannelListDto.swift */; };
+		FED2EF3528DE59640052EF2E /* CurrentTimeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */; };
+		FED2EF3728DE5C260052EF2E /* GetCurrentTimeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */; };
+		FED2EF3B28DE5F3B0052EF2E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */; };
+		FED2EF3E28DE5F900052EF2E /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EF3D28DE5F900052EF2E /* Stinsen */; };
+		FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */; };
+		FED2EF4228DE5FF40052EF2E /* ChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */; };
+		FED2EF4528DE67450052EF2E /* ProgramProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */; };
+		FED2EF4A28DE6C9D0052EF2E /* UiModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */; };
+		FED2EF4D28DE6D280052EF2E /* ChannelUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,18 +80,48 @@
 		8B46786236D3B69CC75A177B /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A713F2CA0881BAC0D18B4319 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD11D5C0D4B71427271929A /* Pods-TelefonicaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.release.xcconfig"; sourceTree = "<group>"; };
+		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FED2EEB928DDC9540052EF2E /* TelefonicaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelefonicaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestApp.swift; sourceTree = "<group>"; };
-		FED2EEBE28DDC9550052EF2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FED2EEC028DDC9570052EF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED2EEC328DDC9570052EF2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FED2EEC528DDC9570052EF2E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		FED2EEC828DDC9570052EF2E /* TelefonicaTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelefonicaTest.xcdatamodel; sourceTree = "<group>"; };
 		FED2EECE28DDC9580052EF2E /* TelefonicaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefonicaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED2EED228DDC9580052EF2E /* TelefonicaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestTests.swift; sourceTree = "<group>"; };
 		FED2EED828DDC9580052EF2E /* TelefonicaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefonicaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED2EEDC28DDC9580052EF2E /* TelefonicaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITests.swift; sourceTree = "<group>"; };
 		FED2EEDE28DDC9580052EF2E /* TelefonicaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonicaError.swift; sourceTree = "<group>"; };
+		FED2EF0128DDD9B40052EF2E /* UrlSessionApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionApiClient.swift; sourceTree = "<group>"; };
+		FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepository.swift; sourceTree = "<group>"; };
+		FED2EF0628DDE0100052EF2E /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		FED2EF0C28DDE1C30052EF2E /* ClockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockService.swift; sourceTree = "<group>"; };
+		FED2EF0E28DDE2070052EF2E /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		FED2EF1128DDE3B20052EF2E /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelApiDataSource.swift; sourceTree = "<group>"; };
+		FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDataSource.swift; sourceTree = "<group>"; };
+		FED2EF1728DDE5FE0052EF2E /* ChannelDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDto.swift; sourceTree = "<group>"; };
+		FED2EF1928DDE6070052EF2E /* ChannelLiveProgramDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelLiveProgramDto.swift; sourceTree = "<group>"; };
+		FED2EF1C28DDF0F90052EF2E /* LiveProgramDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramDto.swift; sourceTree = "<group>"; };
+		FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCategory.swift; sourceTree = "<group>"; };
+		FED2EF2028DDF1C20052EF2E /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		FED2EF2228DDF2530052EF2E /* LiveProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgram.swift; sourceTree = "<group>"; };
+		FED2EF2428DDF38E0052EF2E /* LiveProgramDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramDataSource.swift; sourceTree = "<group>"; };
+		FED2EF2628DDF3DC0052EF2E /* LiveProgramApiDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramApiDataSource.swift; sourceTree = "<group>"; };
+		FED2EF2828DDF4BE0052EF2E /* LiveProgramRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramRepository.swift; sourceTree = "<group>"; };
+		FED2EF2B28DDF6880052EF2E /* DtoMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtoMapper.swift; sourceTree = "<group>"; };
+		FED2EF2E28DE52BB0052EF2E /* GetChannelsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChannelsUseCase.swift; sourceTree = "<group>"; };
+		FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLiveProgramUseCase.swift; sourceTree = "<group>"; };
+		FED2EF3228DE57600052EF2E /* ChannelListDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListDto.swift; sourceTree = "<group>"; };
+		FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeDto.swift; sourceTree = "<group>"; };
+		FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentTimeUseCase.swift; sourceTree = "<group>"; };
+		FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewModel.swift; sourceTree = "<group>"; };
+		FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramProgressView.swift; sourceTree = "<group>"; };
+		FED2EF4628DE68A70052EF2E /* R.resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.resources.swift; sourceTree = "<group>"; };
+		FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiModelMapper.swift; sourceTree = "<group>"; };
+		FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelUiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED2EF3E28DE5F900052EF2E /* Stinsen in Frameworks */,
 				A7CCD8768AA30E490F39C57C /* Pods_TelefonicaTest.framework in Frameworks */,
 				FED2EEF528DDCE520052EF2E /* Factory in Frameworks */,
 			);
@@ -144,14 +204,12 @@
 		FED2EEBB28DDC9540052EF2E /* TelefonicaTest */ = {
 			isa = PBXGroup;
 			children = (
+				FE5ECA7B28DE7D390029DC91 /* Info.plist */,
 				FED2EEF628DDCE670052EF2E /* Data */,
 				FED2EEF728DDCE6B0052EF2E /* Domain */,
 				FED2EEF828DDCE6E0052EF2E /* Presentation */,
-				FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */,
-				FED2EEBE28DDC9550052EF2E /* ContentView.swift */,
 				FED2EEC028DDC9570052EF2E /* Assets.xcassets */,
-				FED2EEC528DDC9570052EF2E /* Persistence.swift */,
-				FED2EEC728DDC9570052EF2E /* TelefonicaTest.xcdatamodeld */,
+				FED2EF1128DDE3B20052EF2E /* Factory.swift */,
 				FED2EEC228DDC9570052EF2E /* Preview Content */,
 			);
 			path = TelefonicaTest;
@@ -185,6 +243,10 @@
 		FED2EEF628DDCE670052EF2E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				FED2EF0A28DDE1B00052EF2E /* Services */,
+				FED2EEFB28DDD59A0052EF2E /* ApiClient */,
+				FED2EEFA28DDD5690052EF2E /* Repositories */,
+				FED2EEF928DDD5670052EF2E /* Dtos */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -192,6 +254,8 @@
 		FED2EEF728DDCE6B0052EF2E /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				FED2EF2D28DE52A20052EF2E /* UseCases */,
+				FED2EEFE28DDD6CB0052EF2E /* Models */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -199,8 +263,154 @@
 		FED2EEF828DDCE6E0052EF2E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FED2EF4B28DE6D1C0052EF2E /* Models */,
+				FED2EF4828DE6C8C0052EF2E /* Mapper */,
+				FED2EF4328DE672F0052EF2E /* Views */,
+				FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */,
+				FED2EF3928DE5E100052EF2E /* LiveProgram */,
+				FED2EF3828DE5E020052EF2E /* ChannelList */,
+				FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */,
+				FED2EF4628DE68A70052EF2E /* R.resources.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FED2EEF928DDD5670052EF2E /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF1728DDE5FE0052EF2E /* ChannelDto.swift */,
+				FED2EF1928DDE6070052EF2E /* ChannelLiveProgramDto.swift */,
+				FED2EF1C28DDF0F90052EF2E /* LiveProgramDto.swift */,
+				FED2EF3228DE57600052EF2E /* ChannelListDto.swift */,
+				FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */,
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
+		FED2EEFA28DDD5690052EF2E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF2A28DDF6410052EF2E /* Mapper */,
+				FED2EF1028DDE3030052EF2E /* LiveProgramRepository */,
+				FED2EF0328DDDD3E0052EF2E /* ChannelRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FED2EEFB28DDD59A0052EF2E /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */,
+				FED2EF0128DDD9B40052EF2E /* UrlSessionApiClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		FED2EEFE28DDD6CB0052EF2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */,
+				FED2EF0628DDE0100052EF2E /* Channel.swift */,
+				FED2EF0E28DDE2070052EF2E /* Clock.swift */,
+				FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */,
+				FED2EF2028DDF1C20052EF2E /* Program.swift */,
+				FED2EF2228DDF2530052EF2E /* LiveProgram.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FED2EF0328DDDD3E0052EF2E /* ChannelRepository */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */,
+				FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */,
+				FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */,
+			);
+			path = ChannelRepository;
+			sourceTree = "<group>";
+		};
+		FED2EF0A28DDE1B00052EF2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF0B28DDE1B60052EF2E /* ClockService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FED2EF0B28DDE1B60052EF2E /* ClockService */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF0C28DDE1C30052EF2E /* ClockService.swift */,
+			);
+			path = ClockService;
+			sourceTree = "<group>";
+		};
+		FED2EF1028DDE3030052EF2E /* LiveProgramRepository */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF2428DDF38E0052EF2E /* LiveProgramDataSource.swift */,
+				FED2EF2628DDF3DC0052EF2E /* LiveProgramApiDataSource.swift */,
+				FED2EF2828DDF4BE0052EF2E /* LiveProgramRepository.swift */,
+			);
+			path = LiveProgramRepository;
+			sourceTree = "<group>";
+		};
+		FED2EF2A28DDF6410052EF2E /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF2B28DDF6880052EF2E /* DtoMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		FED2EF2D28DE52A20052EF2E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF2E28DE52BB0052EF2E /* GetChannelsUseCase.swift */,
+				FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */,
+				FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FED2EF3828DE5E020052EF2E /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */,
+				FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */,
+			);
+			path = ChannelList;
+			sourceTree = "<group>";
+		};
+		FED2EF3928DE5E100052EF2E /* LiveProgram */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveProgram;
+			sourceTree = "<group>";
+		};
+		FED2EF4328DE672F0052EF2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FED2EF4828DE6C8C0052EF2E /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		FED2EF4B28DE6D1C0052EF2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,12 +421,10 @@
 			buildConfigurationList = FED2EEE228DDC9580052EF2E /* Build configuration list for PBXNativeTarget "TelefonicaTest" */;
 			buildPhases = (
 				3CCCA0F70C8E3AE6EEFCA38C /* [CP] Check Pods Manifest.lock */,
-				FED2EEEB28DDCC040052EF2E /* R.swift */,
 				FED2EEB528DDC9540052EF2E /* Sources */,
 				FED2EEB628DDC9540052EF2E /* Frameworks */,
 				FED2EEB728DDC9540052EF2E /* Resources */,
 				FED2EEEC28DDCD0E0052EF2E /* SwiftLint */,
-				187EB20B1D738B19E2054F2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +433,7 @@
 			name = TelefonicaTest;
 			packageProductDependencies = (
 				FED2EEF428DDCE520052EF2E /* Factory */,
+				FED2EF3D28DE5F900052EF2E /* Stinsen */,
 			);
 			productName = TelefonicaTest;
 			productReference = FED2EEB928DDC9540052EF2E /* TelefonicaTest.app */;
@@ -261,7 +470,6 @@
 				FED2EED428DDC9580052EF2E /* Sources */,
 				FED2EED528DDC9580052EF2E /* Frameworks */,
 				FED2EED628DDC9580052EF2E /* Resources */,
-				E17EF67F409B69A3307E1A30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,6 +517,7 @@
 				FED2EEED28DDCE040052EF2E /* XCRemoteSwiftPackageReference "Quick" */,
 				FED2EEF028DDCE240052EF2E /* XCRemoteSwiftPackageReference "Nimble" */,
 				FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */,
+				FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */,
 			);
 			productRefGroup = FED2EEBA28DDC9540052EF2E /* Products */;
 			projectDirPath = "";
@@ -348,23 +557,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		187EB20B1D738B19E2054F2A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3CCCA0F70C8E3AE6EEFCA38C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,45 +623,9 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E17EF67F409B69A3307E1A30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FED2EEEB28DDCC040052EF2E /* R.swift */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = R.swift;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
-		};
 		FED2EEEC28DDCD0E0052EF2E /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -484,7 +640,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint --strict\n";
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -493,10 +649,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED2EEC628DDC9570052EF2E /* Persistence.swift in Sources */,
-				FED2EEC928DDC9570052EF2E /* TelefonicaTest.xcdatamodeld in Sources */,
-				FED2EEBF28DDC9550052EF2E /* ContentView.swift in Sources */,
+				FED2EF0D28DDE1C30052EF2E /* ClockService.swift in Sources */,
+				FED2EF4A28DE6C9D0052EF2E /* UiModelMapper.swift in Sources */,
+				FED2EF2C28DDF6880052EF2E /* DtoMapper.swift in Sources */,
+				FED2EF0028DDD6E90052EF2E /* TelefonicaError.swift in Sources */,
+				FED2EF1D28DDF0F90052EF2E /* LiveProgramDto.swift in Sources */,
+				FED2EF3728DE5C260052EF2E /* GetCurrentTimeUseCase.swift in Sources */,
+				FED2EF2F28DE52BB0052EF2E /* GetChannelsUseCase.swift in Sources */,
+				FED2EF4228DE5FF40052EF2E /* ChannelListViewModel.swift in Sources */,
+				FED2EF3B28DE5F3B0052EF2E /* AppCoordinator.swift in Sources */,
+				FED2EF1A28DDE6070052EF2E /* ChannelLiveProgramDto.swift in Sources */,
+				FED2EF0228DDD9B40052EF2E /* UrlSessionApiClient.swift in Sources */,
+				FED2EF3128DE54D10052EF2E /* GetLiveProgramUseCase.swift in Sources */,
+				FED2EF2528DDF38E0052EF2E /* LiveProgramDataSource.swift in Sources */,
+				FED2EF1428DDE4630052EF2E /* ChannelApiDataSource.swift in Sources */,
+				FED2EF1228DDE3B20052EF2E /* Factory.swift in Sources */,
+				FED2EF4D28DE6D280052EF2E /* ChannelUiModel.swift in Sources */,
+				FED2EF4528DE67450052EF2E /* ProgramProgressView.swift in Sources */,
+				FED2EF0528DDDD8F0052EF2E /* ChannelRepository.swift in Sources */,
+				FED2EF1F28DDF1720052EF2E /* ProgramCategory.swift in Sources */,
+				FED2EF0F28DDE2070052EF2E /* Clock.swift in Sources */,
+				FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */,
+				FED2EF2728DDF3DC0052EF2E /* LiveProgramApiDataSource.swift in Sources */,
+				FED2EF2928DDF4BE0052EF2E /* LiveProgramRepository.swift in Sources */,
+				FED2EF2128DDF1C20052EF2E /* Program.swift in Sources */,
+				FED2EF1628DDE4A00052EF2E /* ChannelDataSource.swift in Sources */,
+				FED2EF3528DE59640052EF2E /* CurrentTimeDto.swift in Sources */,
+				FED2EF3328DE57600052EF2E /* ChannelListDto.swift in Sources */,
+				FED2EF1828DDE5FE0052EF2E /* ChannelDto.swift in Sources */,
 				FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */,
+				FED2EF0728DDE0100052EF2E /* Channel.swift in Sources */,
+				FED2EEFD28DDD63F0052EF2E /* ApiClient.swift in Sources */,
+				FED2EF2328DDF2530052EF2E /* LiveProgram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +843,7 @@
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelefonicaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -689,6 +874,7 @@
 				DEVELOPMENT_TEAM = SVW6HF2MTV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelefonicaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -853,6 +1039,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rundfunk47/stinsen";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -871,20 +1065,12 @@
 			package = FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */;
 			productName = Factory;
 		};
-/* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		FED2EEC728DDC9570052EF2E /* TelefonicaTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FED2EEC828DDC9570052EF2E /* TelefonicaTest.xcdatamodel */,
-			);
-			currentVersion = FED2EEC828DDC9570052EF2E /* TelefonicaTest.xcdatamodel */;
-			path = TelefonicaTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+		FED2EF3D28DE5F900052EF2E /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = Stinsen;
 		};
-/* End XCVersionGroup section */
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FED2EEB128DDC9540052EF2E /* Project object */;
 }
