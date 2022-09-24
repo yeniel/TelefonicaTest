@@ -15,7 +15,10 @@ class ChannelListViewModel: ObservableObject {
     var status: ScreenStatus = .loading
 
     @Published
-    var channelList: [ChannelUiModel] = []
+    var channelList: [ChannelUIModel] = []
+
+    @Published
+    var showError: Bool = false
 
     @Injected(Container.getChannelsUseCase)
     private var getChannelsUseCase: GetChannelsUseCase
@@ -23,8 +26,14 @@ class ChannelListViewModel: ObservableObject {
     @Injected(Container.getCurrentTimeUseCase)
     private var getCurrentTimeUseCase: GetCurrentTimeUseCase
 
+    @Injected(Container.isProgramAvailableUseCase)
+    private var isProgramAvailableUseCase: IsProgramAvailableUseCase
+
     @Injected(Container.uiModelMapper)
-    private var uiModelMapper: UiModelMapper
+    private var uiModelMapper: UIModelMapper
+
+    @RouterObject
+    var router: MainCoordinator.Router?
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -45,11 +54,11 @@ class ChannelListViewModel: ObservableObject {
             .store(in: &cancellables)
     }
 
-    func channelTapped(channel _: ChannelUiModel) {
+    func routeToProgram(id: Int) {
+        if isProgramAvailableUseCase.execute(programId: id) {
+            router?.coordinator.route(to: \.liveProgram, id)
+        } else {
+            showError = true
+        }
     }
-}
-
-enum ScreenStatus {
-    case loading
-    case loaded
 }

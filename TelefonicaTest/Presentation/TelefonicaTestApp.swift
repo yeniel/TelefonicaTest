@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import Stinsen
 
 @main
 struct TelefonicaTestApp: App {
+    @SceneBuilder
     var body: some Scene {
         WindowGroup {
             AppCoordinator().view()

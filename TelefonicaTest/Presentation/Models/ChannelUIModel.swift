@@ -7,10 +7,11 @@
 
 import Foundation
 
-struct ChannelUiModel: Identifiable {
+struct ChannelUIModel: Identifiable {
     var id: Int
     let name: String
     let logo: URL?
-    let liveProgramName: String
+    let liveProgramId: Int
+    let liveProgramTitle: String
     let liveProgramProgress: Double
 }

@@ -49,8 +49,15 @@
 		FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */; };
 		FED2EF4228DE5FF40052EF2E /* ChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */; };
 		FED2EF4528DE67450052EF2E /* ProgramProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */; };
-		FED2EF4A28DE6C9D0052EF2E /* UiModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */; };
-		FED2EF4D28DE6D280052EF2E /* ChannelUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */; };
+		FED2EF4A28DE6C9D0052EF2E /* UIModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4928DE6C9D0052EF2E /* UIModelMapper.swift */; };
+		FED2EF4D28DE6D280052EF2E /* ChannelUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4C28DE6D280052EF2E /* ChannelUIModel.swift */; };
+		FED6D03228DF3FAA00AFD2CB /* LiveProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03128DF3FAA00AFD2CB /* LiveProgramView.swift */; };
+		FED6D03428DF3FB300AFD2CB /* LiveProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03328DF3FB300AFD2CB /* LiveProgramViewModel.swift */; };
+		FED6D03628DF3FEA00AFD2CB /* ScreenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */; };
+		FED6D03828DF441A00AFD2CB /* LiveProgramUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */; };
+		FED6D03C28DF49C800AFD2CB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03B28DF49C800AFD2CB /* Extensions.swift */; };
+		FED6D03E28DF5C7300AFD2CB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */; };
+		FED6D04128DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,9 +126,15 @@
 		FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
 		FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewModel.swift; sourceTree = "<group>"; };
 		FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramProgressView.swift; sourceTree = "<group>"; };
-		FED2EF4628DE68A70052EF2E /* R.resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.resources.swift; sourceTree = "<group>"; };
-		FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiModelMapper.swift; sourceTree = "<group>"; };
-		FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelUiModel.swift; sourceTree = "<group>"; };
+		FED2EF4928DE6C9D0052EF2E /* UIModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModelMapper.swift; sourceTree = "<group>"; };
+		FED2EF4C28DE6D280052EF2E /* ChannelUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelUIModel.swift; sourceTree = "<group>"; };
+		FED6D03128DF3FAA00AFD2CB /* LiveProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramView.swift; sourceTree = "<group>"; };
+		FED6D03328DF3FB300AFD2CB /* LiveProgramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramViewModel.swift; sourceTree = "<group>"; };
+		FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenStatus.swift; sourceTree = "<group>"; };
+		FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramUIModel.swift; sourceTree = "<group>"; };
+		FED6D03B28DF49C800AFD2CB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = /Users/yeniel/workspace/iOS_Archive/TelefonicaTest/TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = "<absolute>"; };
+		FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsProgramAvailableUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,14 +276,12 @@
 		FED2EEF828DDCE6E0052EF2E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FED6D03F28DF5C7A00AFD2CB /* Router */,
+				FED6D03A28DF49C100AFD2CB /* Utils */,
 				FED2EF4B28DE6D1C0052EF2E /* Models */,
 				FED2EF4828DE6C8C0052EF2E /* Mapper */,
 				FED2EF4328DE672F0052EF2E /* Views */,
 				FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */,
-				FED2EF3928DE5E100052EF2E /* LiveProgram */,
-				FED2EF3828DE5E020052EF2E /* ChannelList */,
-				FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */,
-				FED2EF4628DE68A70052EF2E /* R.resources.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -369,6 +380,7 @@
 				FED2EF2E28DE52BB0052EF2E /* GetChannelsUseCase.swift */,
 				FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */,
 				FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */,
+				FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -385,6 +397,8 @@
 		FED2EF3928DE5E100052EF2E /* LiveProgram */ = {
 			isa = PBXGroup;
 			children = (
+				FED6D03128DF3FAA00AFD2CB /* LiveProgramView.swift */,
+				FED6D03328DF3FB300AFD2CB /* LiveProgramViewModel.swift */,
 			);
 			path = LiveProgram;
 			sourceTree = "<group>";
@@ -392,7 +406,10 @@
 		FED2EF4328DE672F0052EF2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FED2EF3928DE5E100052EF2E /* LiveProgram */,
+				FED2EF3828DE5E020052EF2E /* ChannelList */,
 				FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */,
+				FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,7 +417,7 @@
 		FED2EF4828DE6C8C0052EF2E /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EF4928DE6C9D0052EF2E /* UiModelMapper.swift */,
+				FED2EF4928DE6C9D0052EF2E /* UIModelMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -408,9 +425,27 @@
 		FED2EF4B28DE6D1C0052EF2E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EF4C28DE6D280052EF2E /* ChannelUiModel.swift */,
+				FED2EF4C28DE6D280052EF2E /* ChannelUIModel.swift */,
+				FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FED6D03A28DF49C100AFD2CB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FED6D03B28DF49C800AFD2CB /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FED6D03F28DF5C7A00AFD2CB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */,
+				FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -650,9 +685,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED2EF0D28DDE1C30052EF2E /* ClockService.swift in Sources */,
-				FED2EF4A28DE6C9D0052EF2E /* UiModelMapper.swift in Sources */,
+				FED2EF4A28DE6C9D0052EF2E /* UIModelMapper.swift in Sources */,
 				FED2EF2C28DDF6880052EF2E /* DtoMapper.swift in Sources */,
 				FED2EF0028DDD6E90052EF2E /* TelefonicaError.swift in Sources */,
+				FED6D04128DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift in Sources */,
 				FED2EF1D28DDF0F90052EF2E /* LiveProgramDto.swift in Sources */,
 				FED2EF3728DE5C260052EF2E /* GetCurrentTimeUseCase.swift in Sources */,
 				FED2EF2F28DE52BB0052EF2E /* GetChannelsUseCase.swift in Sources */,
@@ -663,21 +699,27 @@
 				FED2EF3128DE54D10052EF2E /* GetLiveProgramUseCase.swift in Sources */,
 				FED2EF2528DDF38E0052EF2E /* LiveProgramDataSource.swift in Sources */,
 				FED2EF1428DDE4630052EF2E /* ChannelApiDataSource.swift in Sources */,
+				FED6D03C28DF49C800AFD2CB /* Extensions.swift in Sources */,
 				FED2EF1228DDE3B20052EF2E /* Factory.swift in Sources */,
-				FED2EF4D28DE6D280052EF2E /* ChannelUiModel.swift in Sources */,
+				FED2EF4D28DE6D280052EF2E /* ChannelUIModel.swift in Sources */,
 				FED2EF4528DE67450052EF2E /* ProgramProgressView.swift in Sources */,
+				FED6D03428DF3FB300AFD2CB /* LiveProgramViewModel.swift in Sources */,
 				FED2EF0528DDDD8F0052EF2E /* ChannelRepository.swift in Sources */,
 				FED2EF1F28DDF1720052EF2E /* ProgramCategory.swift in Sources */,
 				FED2EF0F28DDE2070052EF2E /* Clock.swift in Sources */,
 				FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */,
+				FED6D03828DF441A00AFD2CB /* LiveProgramUIModel.swift in Sources */,
 				FED2EF2728DDF3DC0052EF2E /* LiveProgramApiDataSource.swift in Sources */,
 				FED2EF2928DDF4BE0052EF2E /* LiveProgramRepository.swift in Sources */,
 				FED2EF2128DDF1C20052EF2E /* Program.swift in Sources */,
+				FED6D03228DF3FAA00AFD2CB /* LiveProgramView.swift in Sources */,
 				FED2EF1628DDE4A00052EF2E /* ChannelDataSource.swift in Sources */,
 				FED2EF3528DE59640052EF2E /* CurrentTimeDto.swift in Sources */,
 				FED2EF3328DE57600052EF2E /* ChannelListDto.swift in Sources */,
 				FED2EF1828DDE5FE0052EF2E /* ChannelDto.swift in Sources */,
 				FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */,
+				FED6D03E28DF5C7300AFD2CB /* MainCoordinator.swift in Sources */,
+				FED6D03628DF3FEA00AFD2CB /* ScreenStatus.swift in Sources */,
 				FED2EF0728DDE0100052EF2E /* Channel.swift in Sources */,
 				FED2EEFD28DDD63F0052EF2E /* ApiClient.swift in Sources */,
 				FED2EF2328DDF2530052EF2E /* LiveProgram.swift in Sources */,

@@ -18,8 +18,8 @@ final class AppCoordinator: NavigationCoordinatable {
     @Root
     var start = makeStart
 
-    @ViewBuilder
-    func makeStart() -> some View {
-        ChannelListView()
+    func makeStart() -> NavigationViewCoordinator<MainCoordinator> {
+        NavigationViewCoordinator(MainCoordinator())
     }
+
 }

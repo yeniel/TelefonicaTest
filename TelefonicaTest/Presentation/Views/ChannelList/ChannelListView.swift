@@ -23,8 +23,12 @@ struct ChannelListView: View {
                 ForEach(viewModel.channelList) { channel in
                     ChannelCell(
                         channel: channel,
-                        action: { viewModel.channelTapped(channel: channel) }
+                        action: { viewModel.routeToProgram(id: channel.liveProgramId) }
                     )
+                }
+            }
+            .alert("Unknown Error", isPresented: $viewModel.showError) {
+                Button("OK", role: .cancel) {
                 }
             }
         }
@@ -32,7 +36,7 @@ struct ChannelListView: View {
 }
 
 struct ChannelCell: View {
-    let channel: ChannelUiModel
+    let channel: ChannelUIModel
     let action: () -> Void
 
     var body: some View {
@@ -53,7 +57,7 @@ struct ChannelCell: View {
                 Text(channel.name)
                     .font(.callout)
                     .fontWeight(.bold)
-                Text(channel.liveProgramName)
+                Text(channel.liveProgramTitle)
                     .font(.caption)
                 ProgramProgressView(progress: channel.liveProgramProgress)
             }

@@ -23,12 +23,14 @@ extension Container {
     // MARK: Mappers
 
     static let dtoMapper = Factory { DtoMapper() }
-    static let uiModelMapper = Factory { UiModelMapper() }
+    static let uiModelMapper = Factory { UIModelMapper() }
+
     // MARK: Use Cases
 
     static let getChannelsUseCase = Factory { GetChannelsUseCase() }
     static let getLiveProgramUseCase = Factory { GetLiveProgramUseCase() }
     static let getCurrentTimeUseCase = Factory { GetCurrentTimeUseCase() }
+    static let isProgramAvailableUseCase = Factory { IsProgramAvailableUseCase() }
 
     // MARK: Managers, helpers
 

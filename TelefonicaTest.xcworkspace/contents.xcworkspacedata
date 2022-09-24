@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/yeniel/workspace/iOS_Archive/TelefonicaTest/TelefonicaTest/Presentation/MainCoordinator.swift">
+   </FileRef>
+   <FileRef
       location = "group:TelefonicaTest.xcodeproj">
    </FileRef>
    <FileRef
