@@ -5,10 +5,12 @@
 //  Created by Yeniel Landestoy on 23/9/22.
 //
 
+import Combine
 import Factory
 import Foundation
 import SwiftUI
-import Combine
+
+// swiftlint:disable switch_case_alignment
 
 struct ChannelListView: View {
     @ObservedObject
@@ -19,22 +21,23 @@ struct ChannelListView: View {
     }
 
     var body: some View {
-        if viewModel.status == .loading {
-            VStack {
-                ProgressView()
-            }
-        } else {
-            List {
-                ForEach(viewModel.channelList) { channel in
-                    ChannelCell(
-                        channel: channel,
-                        action: { viewModel.routeToProgram(id: channel.liveProgramId) }
-                    )
+        switch viewModel.status {
+            case .loading:
+                VStack {
+                    ProgressView()
                 }
-            }
-            .alert("Unknown Error", isPresented: $viewModel.showError) {
-                Button("OK", role: .cancel) { }
-            }
+            case .loaded:
+                List {
+                    ForEach(viewModel.channelList) { channel in
+                        ChannelCell(
+                            channel: channel,
+                            action: { viewModel.routeToProgram(id: channel.liveProgramId) }
+                        )
+                    }
+                }
+                .alert("Unknown Error", isPresented: $viewModel.showError) {
+                    Button("OK", role: .cancel) { }
+                }
         }
     }
 }
@@ -50,10 +53,8 @@ struct ChannelCell: View {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                } else if phase.error != nil {
-                    Image(systemName: "photo.tv")
                 } else {
-                    ProgressView()
+                    Image(systemName: "photo.tv")
                 }
             }
             .frame(width: 130, height: 75)

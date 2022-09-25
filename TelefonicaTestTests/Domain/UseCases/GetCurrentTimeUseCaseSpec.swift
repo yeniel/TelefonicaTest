@@ -13,7 +13,6 @@ import Quick
 
 class GetCurrentTimeUseCaseSpec: QuickSpec {
     override func spec() {
-        var useCase: GetCurrentTimeUseCase!
         var cancellables = Set<AnyCancellable>()
         var currentTime: Date?
 
@@ -30,7 +29,7 @@ class GetCurrentTimeUseCaseSpec: QuickSpec {
         describe("GIVEN a GetCurrentTimeUseCase") {
             context("WHEN execute") {
                 it("THEN publishs the current time date") {
-                    useCase = GetCurrentTimeUseCase()
+                    let useCase = GetCurrentTimeUseCase()
 
                     useCase.execute()
                         .sink(

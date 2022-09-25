@@ -14,7 +14,6 @@ import Stinsen
 
 class ChannelListViewModelSpec: QuickSpec {
     override func spec() {
-        var viewModel: ChannelListViewModel!
         var mockCoordinator: MockMainCoordinator!
 
         beforeEach {
@@ -27,7 +26,7 @@ class ChannelListViewModelSpec: QuickSpec {
         describe("GIVEN a ChannelListViewModel") {
             context("WHEN init") {
                 setupMocks()
-                viewModel = ChannelListViewModel(coordinator: mockCoordinator)
+                let viewModel = ChannelListViewModel(coordinator: mockCoordinator)
 
                 it("THEN publishs a list of channel ui model") {
                     expect(viewModel.channelList).toEventually(equal(ObjectMother.channelUIModelList))
@@ -41,7 +40,7 @@ class ChannelListViewModelSpec: QuickSpec {
             context("WHEN route to program and program is available") {
                 it("THEN routes to live program view") {
                     setupMocks(isProgramAvailable: true)
-                    viewModel = ChannelListViewModel(coordinator: mockCoordinator)
+                    let viewModel = ChannelListViewModel(coordinator: mockCoordinator)
 
                     viewModel.routeToProgram(id: 24667)
 
@@ -52,7 +51,7 @@ class ChannelListViewModelSpec: QuickSpec {
             context("WHEN route to program and program is not available") {
                 it("THEN publish showError as true") {
                     setupMocks(isProgramAvailable: false)
-                    viewModel = ChannelListViewModel(coordinator: mockCoordinator)
+                    let viewModel = ChannelListViewModel(coordinator: mockCoordinator)
 
                     viewModel.routeToProgram(id: 12304)
 

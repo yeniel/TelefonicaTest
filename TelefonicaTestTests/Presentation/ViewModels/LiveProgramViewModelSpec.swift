@@ -14,8 +14,6 @@ import Stinsen
 
 class LiveProgramViewModelSpec: QuickSpec {
     override func spec() {
-        var viewModel: LiveProgramViewModel!
-
         beforeEach {
             Container.Registrations.push()
         }
@@ -27,7 +25,7 @@ class LiveProgramViewModelSpec: QuickSpec {
         describe("GIVEN a LiveProgramViewModel") {
             context("WHEN init") {
                 setupMocks()
-                viewModel = LiveProgramViewModel(liveProgramId: 24677)
+                let viewModel = LiveProgramViewModel(liveProgramId: 24677)
 
                 it("THEN publishs a LiveProgramUIModel") {
                     expect(viewModel.liveProgram).toEventually(equal(ObjectMother.liveProgramUIModel))

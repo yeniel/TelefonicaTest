@@ -13,7 +13,6 @@ import Quick
 
 class GetLiveProgramUseCaseSpec: QuickSpec {
     override func spec() {
-        var useCase: GetLiveProgramUseCase!
         var cancellables = Set<AnyCancellable>()
         var liveProgram: LiveProgram?
         var error: TelefonicaError?
@@ -32,7 +31,7 @@ class GetLiveProgramUseCaseSpec: QuickSpec {
             context("WHEN execute with id 24677") {
                 it("THEN publishs a LiveProgram") {
                     self.setupMocks(showError: false)
-                    useCase = GetLiveProgramUseCase()
+                    let useCase = GetLiveProgramUseCase()
 
                     useCase.execute(id: 24677)
                         .catch { errorCatched -> AnyPublisher<LiveProgram, TelefonicaError> in
@@ -53,7 +52,7 @@ class GetLiveProgramUseCaseSpec: QuickSpec {
             context("WHEN execute with id different than 24677") {
                 it("THEN publishs a TelefonicaError.liveProgramNotFound") {
                     self.setupMocks(showError: true)
-                    useCase = GetLiveProgramUseCase()
+                    let useCase = GetLiveProgramUseCase()
 
                     useCase.execute(id: 12304)
                         .catch { errorCatched -> AnyPublisher<LiveProgram, TelefonicaError> in

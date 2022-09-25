@@ -32,9 +32,6 @@ class ChannelListViewModel: ObservableObject {
     @Injected(Container.uiModelMapper)
     private var uiModelMapper: UIModelMapper
 
-//    @RouterObject
-//    var router: MainCoordinator.Router?
-//    var router: NavigationRouter<MainCoordinatorProtocol>? = RouterStore.shared.retrieve()
     private let coordinator: MainCoordinatorProtocol
     private var cancellables = Set<AnyCancellable>()
 

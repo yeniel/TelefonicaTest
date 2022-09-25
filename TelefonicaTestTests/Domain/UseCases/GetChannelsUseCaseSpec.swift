@@ -13,7 +13,6 @@ import Quick
 
 class GetChannelsUseCaseSpec: QuickSpec {
     override func spec() {
-        var useCase: GetChannelsUseCase!
         var cancellables = Set<AnyCancellable>()
         var channels: [Channel]?
 
@@ -30,7 +29,7 @@ class GetChannelsUseCaseSpec: QuickSpec {
         describe("GIVEN a GetChannelListUseCase") {
             context("WHEN execute") {
                 it("THEN publishs a sorted list of channels") {
-                    useCase = GetChannelsUseCase()
+                    let useCase = GetChannelsUseCase()
 
                     useCase.execute()
                         .sink(
