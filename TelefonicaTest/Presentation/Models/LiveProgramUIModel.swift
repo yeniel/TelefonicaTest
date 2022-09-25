@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LiveProgramUIModel: Identifiable {
+struct LiveProgramUIModel: Identifiable, Equatable {
     var id: Int
     let cover: URL?
     let title: String
@@ -26,5 +26,15 @@ struct LiveProgramUIModel: Identifiable {
             end: "",
             progress: 0.0
         )
+    }
+
+    static func == (lhs: LiveProgramUIModel, rhs: LiveProgramUIModel) -> Bool {
+        lhs.id == rhs.id
+            && lhs.title == rhs.title
+            && lhs.cover == rhs.cover
+            && lhs.description == rhs.description
+            && lhs.start == rhs.start
+            && lhs.end == rhs.end
+            && lhs.progress == rhs.progress
     }
 }

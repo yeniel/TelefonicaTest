@@ -33,7 +33,7 @@ class ChannelListViewModelSpec: QuickSpec {
                     expect(viewModel.channelList).toEventually(equal(ObjectMother.channelUIModelList))
                 }
 
-                it("THEN publishs status loaded") {
+                it("THEN publishs loaded status") {
                     expect(viewModel.status).toEventually(equal(.loaded))
                 }
             }

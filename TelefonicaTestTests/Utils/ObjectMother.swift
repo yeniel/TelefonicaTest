@@ -8,6 +8,7 @@
 import Foundation
 
 // swiftlint:disable line_length
+// swiftlint:disable trailing_comma
 
 struct ObjectMother {
     static var channelList: [Channel] {
@@ -53,7 +54,7 @@ struct ObjectMother {
                     start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
                     end: Date(timeIntervalSince1970: TimeInterval(1659350700))
                 )
-            )
+            ),
         ]
     }
 
@@ -100,7 +101,7 @@ struct ObjectMother {
                     start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
                     end: Date(timeIntervalSince1970: TimeInterval(1659350700))
                 )
-            )
+            ),
         ]
     }
 
@@ -129,7 +130,7 @@ struct ObjectMother {
                 liveProgramId: 12332,
                 liveProgramTitle: "Al Rojo Vivo",
                 liveProgramProgress: 0.955
-            )
+            ),
         ]
     }
 
@@ -142,8 +143,20 @@ struct ObjectMother {
                 category: .live,
                 description: "Espejo Publico es el magacn informativo matinal de Antena3 producido por Antena3 Noticias y presentado por Susanna Griso"
             ),
-            start: Date(timeIntervalSince1970: TimeInterval(1659342600)),
-            end: Date(timeIntervalSince1970: TimeInterval(1659335400))
+            start: Date(timeIntervalSince1970: TimeInterval(1659335400)),
+            end: Date(timeIntervalSince1970: TimeInterval(1659342600))
+        )
+    }
+
+    static var liveProgramUIModel: LiveProgramUIModel {
+        LiveProgramUIModel(
+            id: 24677,
+            cover: URL(string: "https://imagenes.atresplayer.com/atp/clipping/cmsimages02/2021/09/02/B5277B5E-077F-41BA-8D73-399D2ECF12AC//1280x720.jpg"),
+            title: "Espejo Pulico",
+            description: "Espejo Publico es el magacn informativo matinal de Antena3 producido por Antena3 Noticias y presentado por Susanna Griso",
+            start: "08:30",
+            end: "10:30",
+            progress: 0.54625
         )
     }
 
@@ -153,3 +166,4 @@ struct ObjectMother {
 }
 
 // swiftlint:enable line_length
+// swiftlint:enable trailing_comma

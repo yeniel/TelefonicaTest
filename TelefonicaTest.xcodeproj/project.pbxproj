@@ -11,6 +11,7 @@
 		7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2CF8D538921F4E8D969022 /* Pods_TelefonicaTestTests.framework */; };
 		A7CCD8768AA30E490F39C57C /* Pods_TelefonicaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49677710CBC5E726EDA13349 /* Pods_TelefonicaTest.framework */; };
 		FE27BAF328E0B7B700BA4C4D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
+		FE27BAF528E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BAF428E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift */; };
 		FEA2499228E0B164007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
 		FEA2499428E0B23C007328B5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
 		FEA2499528E0B28B007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
@@ -131,6 +132,7 @@
 		8B46786236D3B69CC75A177B /* Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A713F2CA0881BAC0D18B4319 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD11D5C0D4B71427271929A /* Pods-TelefonicaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.release.xcconfig"; sourceTree = "<group>"; };
+		FE27BAF428E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramViewModelSpec.swift; sourceTree = "<group>"; };
 		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FEA2499128E0B164007328B5 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		FEA2499328E0B23C007328B5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -547,6 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */,
+				FE27BAF428E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -878,6 +881,7 @@
 				FEAF0B8E28DF8BDB00998A0D /* ProgramCategory.swift in Sources */,
 				FEAF0BA628DF91EA00998A0D /* ProgramProgressView.swift in Sources */,
 				FEAF0B7D28DF8BC600998A0D /* ChannelDataSource.swift in Sources */,
+				FE27BAF528E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift in Sources */,
 				FEAF0BAD28DF91EA00998A0D /* ScreenStatus.swift in Sources */,
 				FEAF0BB828DFB77800998A0D /* GetCurrentTimeUseCaseSpec.swift in Sources */,
 				FEAF0B8628DF8BCF00998A0D /* LiveProgramDataSource.swift in Sources */,
