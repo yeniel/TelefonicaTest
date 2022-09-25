@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import Factory
 
-struct GetChannelsUseCase {
+class GetChannelsUseCase {
     @Injected(Container.channelRepository)
     private var channelRepository
 

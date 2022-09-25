@@ -10,6 +10,10 @@
 		2760004F87D6F5D850F37996 /* Pods_TelefonicaTest_TelefonicaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AB4762D285721A2001F889 /* Pods_TelefonicaTest_TelefonicaTestUITests.framework */; };
 		7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2CF8D538921F4E8D969022 /* Pods_TelefonicaTestTests.framework */; };
 		A7CCD8768AA30E490F39C57C /* Pods_TelefonicaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49677710CBC5E726EDA13349 /* Pods_TelefonicaTest.framework */; };
+		FE27BAF328E0B7B700BA4C4D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
+		FEA2499228E0B164007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
+		FEA2499428E0B23C007328B5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
+		FEA2499528E0B28B007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
 		FEAF0B7828DF89FD00998A0D /* GetChannelsUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0B7728DF89FD00998A0D /* GetChannelsUseCaseSpec.swift */; };
 		FEAF0B7928DF8A5400998A0D /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
 		FEAF0B7A28DF8A5400998A0D /* GetLiveProgramUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3028DE54D10052EF2E /* GetLiveProgramUseCase.swift */; };
@@ -43,12 +47,10 @@
 		FEAF0BA628DF91EA00998A0D /* ProgramProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */; };
 		FEAF0BA728DF91EA00998A0D /* LiveProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03328DF3FB300AFD2CB /* LiveProgramViewModel.swift */; };
 		FEAF0BA828DF91EA00998A0D /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1128DDE3B20052EF2E /* Factory.swift */; };
-		FEAF0BA928DF91EA00998A0D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */; };
 		FEAF0BAA28DF91EA00998A0D /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */; };
 		FEAF0BAB28DF91EA00998A0D /* UIModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4928DE6C9D0052EF2E /* UIModelMapper.swift */; };
 		FEAF0BAC28DF91EA00998A0D /* TelefonicaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */; };
 		FEAF0BAD28DF91EA00998A0D /* ScreenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */; };
-		FEAF0BAE28DF91EA00998A0D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */; };
 		FEAF0BAF28DF91EA00998A0D /* ChannelUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4C28DE6D280052EF2E /* ChannelUIModel.swift */; };
 		FEAF0BB028DF91EA00998A0D /* ChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */; };
 		FEAF0BB228DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF0BB128DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift */; };
@@ -87,7 +89,6 @@
 		FED2EF3328DE57600052EF2E /* ChannelListDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3228DE57600052EF2E /* ChannelListDto.swift */; };
 		FED2EF3528DE59640052EF2E /* CurrentTimeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */; };
 		FED2EF3728DE5C260052EF2E /* GetCurrentTimeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */; };
-		FED2EF3B28DE5F3B0052EF2E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */; };
 		FED2EF3E28DE5F900052EF2E /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EF3D28DE5F900052EF2E /* Stinsen */; };
 		FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */; };
 		FED2EF4228DE5FF40052EF2E /* ChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */; };
@@ -99,8 +100,8 @@
 		FED6D03628DF3FEA00AFD2CB /* ScreenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */; };
 		FED6D03828DF441A00AFD2CB /* LiveProgramUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */; };
 		FED6D03C28DF49C800AFD2CB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03B28DF49C800AFD2CB /* Extensions.swift */; };
-		FED6D03E28DF5C7300AFD2CB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */; };
 		FED6D04128DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
+		FED7D7AE28E062E4004D48D8 /* ChannelListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		A713F2CA0881BAC0D18B4319 /* Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest-TelefonicaTestUITests/Pods-TelefonicaTest-TelefonicaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD11D5C0D4B71427271929A /* Pods-TelefonicaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelefonicaTest.release.xcconfig"; path = "Target Support Files/Pods-TelefonicaTest/Pods-TelefonicaTest.release.xcconfig"; sourceTree = "<group>"; };
 		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEA2499128E0B164007328B5 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = SOURCE_ROOT; };
+		FEA2499328E0B23C007328B5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		FEAF0B7728DF89FD00998A0D /* GetChannelsUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChannelsUseCaseSpec.swift; sourceTree = "<group>"; };
 		FEAF0B9128DF8C1A00998A0D /* ObjectMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMother.swift; sourceTree = "<group>"; };
 		FEAF0BB128DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLiveProgramUseCaseSpec.swift; sourceTree = "<group>"; };
@@ -169,7 +172,6 @@
 		FED2EF3228DE57600052EF2E /* ChannelListDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListDto.swift; sourceTree = "<group>"; };
 		FED2EF3428DE59640052EF2E /* CurrentTimeDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeDto.swift; sourceTree = "<group>"; };
 		FED2EF3628DE5C260052EF2E /* GetCurrentTimeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentTimeUseCase.swift; sourceTree = "<group>"; };
-		FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		FED2EF3F28DE5FE20052EF2E /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
 		FED2EF4128DE5FF40052EF2E /* ChannelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewModel.swift; sourceTree = "<group>"; };
 		FED2EF4428DE67450052EF2E /* ProgramProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramProgressView.swift; sourceTree = "<group>"; };
@@ -180,8 +182,8 @@
 		FED6D03528DF3FEA00AFD2CB /* ScreenStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenStatus.swift; sourceTree = "<group>"; };
 		FED6D03728DF441A00AFD2CB /* LiveProgramUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramUIModel.swift; sourceTree = "<group>"; };
 		FED6D03B28DF49C800AFD2CB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = /Users/yeniel/workspace/iOS_Archive/TelefonicaTest/TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = "<absolute>"; };
 		FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsProgramAvailableUseCase.swift; sourceTree = "<group>"; };
+		FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewModelSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,8 @@
 		FEAF0B7528DF89A600998A0D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FED7D7AB28E06258004D48D8 /* Snapshots */,
+				FED7D7AA28E06249004D48D8 /* ViewModels */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -533,10 +537,25 @@
 		FED6D03F28DF5C7A00AFD2CB /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EF3A28DE5F3B0052EF2E /* AppCoordinator.swift */,
-				FED6D03D28DF5C7300AFD2CB /* MainCoordinator.swift */,
+				FEA2499328E0B23C007328B5 /* AppCoordinator.swift */,
+				FEA2499128E0B164007328B5 /* MainCoordinator.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		FED7D7AA28E06249004D48D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FED7D7AB28E06258004D48D8 /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Snapshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -786,13 +805,13 @@
 				FED2EF3728DE5C260052EF2E /* GetCurrentTimeUseCase.swift in Sources */,
 				FED2EF2F28DE52BB0052EF2E /* GetChannelsUseCase.swift in Sources */,
 				FED2EF4228DE5FF40052EF2E /* ChannelListViewModel.swift in Sources */,
-				FED2EF3B28DE5F3B0052EF2E /* AppCoordinator.swift in Sources */,
 				FED2EF1A28DDE6070052EF2E /* ChannelLiveProgramDto.swift in Sources */,
 				FED2EF0228DDD9B40052EF2E /* UrlSessionApiClient.swift in Sources */,
 				FED2EF3128DE54D10052EF2E /* GetLiveProgramUseCase.swift in Sources */,
 				FED2EF2528DDF38E0052EF2E /* LiveProgramDataSource.swift in Sources */,
 				FED2EF1428DDE4630052EF2E /* ChannelApiDataSource.swift in Sources */,
 				FED6D03C28DF49C800AFD2CB /* Extensions.swift in Sources */,
+				FEA2499428E0B23C007328B5 /* AppCoordinator.swift in Sources */,
 				FED2EF1228DDE3B20052EF2E /* Factory.swift in Sources */,
 				FED2EF4D28DE6D280052EF2E /* ChannelUIModel.swift in Sources */,
 				FED2EF4528DE67450052EF2E /* ProgramProgressView.swift in Sources */,
@@ -811,7 +830,7 @@
 				FED2EF3328DE57600052EF2E /* ChannelListDto.swift in Sources */,
 				FED2EF1828DDE5FE0052EF2E /* ChannelDto.swift in Sources */,
 				FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */,
-				FED6D03E28DF5C7300AFD2CB /* MainCoordinator.swift in Sources */,
+				FEA2499228E0B164007328B5 /* MainCoordinator.swift in Sources */,
 				FED6D03628DF3FEA00AFD2CB /* ScreenStatus.swift in Sources */,
 				FED2EF0728DDE0100052EF2E /* Channel.swift in Sources */,
 				FED2EEFD28DDD63F0052EF2E /* ApiClient.swift in Sources */,
@@ -823,10 +842,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED7D7AE28E062E4004D48D8 /* ChannelListViewModelSpec.swift in Sources */,
 				FEAF0B8828DF8BD200998A0D /* DtoMapper.swift in Sources */,
 				FEAF0B8228DF8BCA00998A0D /* CurrentTimeDto.swift in Sources */,
 				FEAF0BAA28DF91EA00998A0D /* ChannelListView.swift in Sources */,
 				FEAF0BA828DF91EA00998A0D /* Factory.swift in Sources */,
+				FEA2499528E0B28B007328B5 /* MainCoordinator.swift in Sources */,
 				FEAF0B7A28DF8A5400998A0D /* GetLiveProgramUseCase.swift in Sources */,
 				FEAF0B8328DF8BCA00998A0D /* ChannelLiveProgramDto.swift in Sources */,
 				FEAF0B7B28DF8A5400998A0D /* GetCurrentTimeUseCase.swift in Sources */,
@@ -841,12 +862,10 @@
 				FEAF0B8F28DF8BDB00998A0D /* Program.swift in Sources */,
 				FEAF0BAF28DF91EA00998A0D /* ChannelUIModel.swift in Sources */,
 				FEAF0BB228DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift in Sources */,
-				FEAF0BAE28DF91EA00998A0D /* AppCoordinator.swift in Sources */,
 				FEAF0B7F28DF8BC600998A0D /* ChannelRepository.swift in Sources */,
 				FEAF0B7E28DF8BC600998A0D /* ChannelApiDataSource.swift in Sources */,
 				FEAF0B9428DF91AA00998A0D /* ApiClient.swift in Sources */,
 				FEAF0B8A28DF8BDB00998A0D /* LiveProgram.swift in Sources */,
-				FEAF0BA928DF91EA00998A0D /* MainCoordinator.swift in Sources */,
 				FEAF0B7828DF89FD00998A0D /* GetChannelsUseCaseSpec.swift in Sources */,
 				FEAF0B8428DF8BCA00998A0D /* LiveProgramDto.swift in Sources */,
 				FEAF0BAC28DF91EA00998A0D /* TelefonicaTestApp.swift in Sources */,
@@ -865,6 +884,7 @@
 				FEAF0B8C28DF8BDB00998A0D /* TelefonicaError.swift in Sources */,
 				FEAF0B7C28DF8A5400998A0D /* GetChannelsUseCase.swift in Sources */,
 				FEAF0B8128DF8BCA00998A0D /* ChannelDto.swift in Sources */,
+				FE27BAF328E0B7B700BA4C4D /* AppCoordinator.swift in Sources */,
 				FEAF0BA528DF91EA00998A0D /* LiveProgramUIModel.swift in Sources */,
 				FEAF0BA328DF91EA00998A0D /* LiveProgramView.swift in Sources */,
 			);

@@ -9,7 +9,11 @@ import Foundation
 import Stinsen
 import SwiftUI
 
-final class MainCoordinator: NavigationCoordinatable {
+protocol MainCoordinatorProtocol {
+    func routeToLiveProgram(id: Int)
+}
+
+final class MainCoordinator: MainCoordinatorProtocol, NavigationCoordinatable {
     let stack = NavigationStack(initial: \MainCoordinator.start)
 
     lazy var routerStorable: MainCoordinator = self
@@ -22,7 +26,9 @@ final class MainCoordinator: NavigationCoordinatable {
 
     @ViewBuilder
     func makeStart() -> some View {
-        ChannelListView()
+        let viewModel = ChannelListViewModel(coordinator: self)
+
+        ChannelListView(viewModel: viewModel)
     }
 
     @ViewBuilder
@@ -30,5 +36,9 @@ final class MainCoordinator: NavigationCoordinatable {
         let viewModel = LiveProgramViewModel(liveProgramId: id)
 
         LiveProgramView(viewModel: viewModel)
+    }
+
+    func routeToLiveProgram(id: Int) {
+        route(to: \.liveProgram, id)
     }
 }

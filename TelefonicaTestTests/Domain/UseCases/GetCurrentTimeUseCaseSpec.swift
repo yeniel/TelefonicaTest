@@ -18,14 +18,19 @@ class GetCurrentTimeUseCaseSpec: QuickSpec {
         var currentTime: Date?
 
         beforeEach {
+            Container.Registrations.push()
             currentTime = nil
             self.setupMocks()
+        }
+
+        afterEach {
+            Container.Registrations.pop()
         }
 
         describe("GIVEN a GetCurrentTimeUseCase") {
             context("WHEN execute") {
                 it("THEN publishs the current time date") {
-                    useCase = Container.getCurrentTimeUseCase()
+                    useCase = GetCurrentTimeUseCase()
 
                     useCase.execute()
                         .sink(

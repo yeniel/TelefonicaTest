@@ -32,12 +32,14 @@ class ChannelListViewModel: ObservableObject {
     @Injected(Container.uiModelMapper)
     private var uiModelMapper: UIModelMapper
 
-    @RouterObject
-    var router: MainCoordinator.Router?
-
+//    @RouterObject
+//    var router: MainCoordinator.Router?
+//    var router: NavigationRouter<MainCoordinatorProtocol>? = RouterStore.shared.retrieve()
+    private let coordinator: MainCoordinatorProtocol
     private var cancellables = Set<AnyCancellable>()
 
-    init() {
+    init(coordinator: MainCoordinatorProtocol) {
+        self.coordinator = coordinator
         getChannelsUseCase.execute().combineLatest(getCurrentTimeUseCase.execute())
             .sink(
                 receiveCompletion: { _ in },
@@ -56,7 +58,7 @@ class ChannelListViewModel: ObservableObject {
 
     func routeToProgram(id: Int) {
         if isProgramAvailableUseCase.execute(programId: id) {
-            router?.coordinator.route(to: \.liveProgram, id)
+            coordinator.routeToLiveProgram(id: id)
         } else {
             showError = true
         }

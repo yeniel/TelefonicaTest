@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct IsProgramAvailableUseCase {
+class IsProgramAvailableUseCase {
     func execute(programId: Int) -> Bool {
         programId == 24677
     }

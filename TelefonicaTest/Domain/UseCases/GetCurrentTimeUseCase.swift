@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import Factory
 
-struct GetCurrentTimeUseCase {
+class GetCurrentTimeUseCase {
     @Injected(Container.clockService)
     private var clockService
 

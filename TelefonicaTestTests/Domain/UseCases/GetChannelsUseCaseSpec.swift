@@ -18,14 +18,19 @@ class GetChannelsUseCaseSpec: QuickSpec {
         var channels: [Channel]?
 
         beforeEach {
+            Container.Registrations.push()
             channels = nil
             self.setupMocks()
+        }
+
+        afterEach {
+            Container.Registrations.pop()
         }
 
         describe("GIVEN a GetChannelListUseCase") {
             context("WHEN execute") {
                 it("THEN publishs a sorted list of channels") {
-                    useCase = Container.getChannelsUseCase()
+                    useCase = GetChannelsUseCase()
 
                     useCase.execute()
                         .sink(

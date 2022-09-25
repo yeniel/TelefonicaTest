@@ -15,10 +15,18 @@ class IsProgramAvailableUseCaseSpec: QuickSpec {
     override func spec() {
         var useCase: IsProgramAvailableUseCase!
 
+        beforeEach {
+            Container.Registrations.push()
+        }
+
+        afterEach {
+            Container.Registrations.pop()
+        }
+
         describe("GIVEN a IsProgramAvailableUseCase") {
             context("WHEN execute with id 24677") {
                 it("THEN publishs is available") {
-                    useCase = Container.isProgramAvailableUseCase()
+                    useCase = IsProgramAvailableUseCase()
 
                     let isProgramAvailable = useCase.execute(programId: 24677)
 
@@ -28,7 +36,7 @@ class IsProgramAvailableUseCaseSpec: QuickSpec {
 
             context("WHEN execute with id different than 24677") {
                 it("THEN publishs is not available") {
-                    useCase = Container.isProgramAvailableUseCase()
+                    useCase = IsProgramAvailableUseCase()
 
                     let isProgramAvailable = useCase.execute(programId: 12304)
 

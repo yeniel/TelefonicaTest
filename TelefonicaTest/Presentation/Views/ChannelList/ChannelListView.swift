@@ -8,10 +8,15 @@
 import Factory
 import Foundation
 import SwiftUI
+import Combine
 
 struct ChannelListView: View {
     @ObservedObject
-    var viewModel = ChannelListViewModel()
+    var viewModel: ChannelListViewModel
+
+    init(viewModel: ChannelListViewModel) {
+        self.viewModel = viewModel
+    }
 
     var body: some View {
         if viewModel.status == .loading {

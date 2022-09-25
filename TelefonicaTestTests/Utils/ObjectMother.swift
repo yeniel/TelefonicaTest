@@ -22,8 +22,8 @@ struct ObjectMother {
                         title: "Espejo PÃºblico",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659342600)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659335400))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659335400)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659342600))
                 )
             ),
             Channel(
@@ -36,8 +36,8 @@ struct ObjectMother {
                         title: "Mundial FÃºtbol Femenino: EspaÃ±a - Italia",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659344400)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659338100))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659344400))
                 )
             ),
             Channel(
@@ -50,8 +50,8 @@ struct ObjectMother {
                         title: "Al Rojo Vivo",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659350700)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659338100))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659350700))
                 )
             )
         ]
@@ -69,8 +69,8 @@ struct ObjectMother {
                         title: "Mundial FÃºtbol Femenino: EspaÃ±a - Italia",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659344400)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659338100))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659344400))
                 )
             ),
             Channel(
@@ -83,8 +83,8 @@ struct ObjectMother {
                         title: "Espejo PÃºblico",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659342600)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659335400))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659335400)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659342600))
                 )
             ),
             Channel(
@@ -97,9 +97,38 @@ struct ObjectMother {
                         title: "Al Rojo Vivo",
                         category: .live
                     ),
-                    start: Date(timeIntervalSince1970: TimeInterval(1659350700)),
-                    end: Date(timeIntervalSince1970: TimeInterval(1659338100))
+                    start: Date(timeIntervalSince1970: TimeInterval(1659338100)),
+                    end: Date(timeIntervalSince1970: TimeInterval(1659350700))
                 )
+            )
+        ]
+    }
+
+    static var channelUIModelList: [ChannelUIModel] {
+        [
+            ChannelUIModel(
+                id: 1,
+                name: "TVE",
+                logo: URL(string: "http://www.movistarplus.es/recorte/m-DP/mux/TVE.png"),
+                liveProgramId: 12304,
+                liveProgramTitle: "Mundial FÃºtbol Femenino: EspaÃ±a - Italia",
+                liveProgramProgress: 0.91
+            ),
+            ChannelUIModel(
+                id: 3,
+                name: "Antena 3",
+                logo: URL(string: "http://www.movistarplus.es/recorte/m-DP/mux/A3.png"),
+                liveProgramId: 24677,
+                liveProgramTitle: "Espejo PÃºblico",
+                liveProgramProgress: 0.54625
+            ),
+            ChannelUIModel(
+                id: 6,
+                name: "La Sexta",
+                logo: URL(string: "http://www.movistarplus.es/recorte/m-DP/mux/SEXTA.png"),
+                liveProgramId: 12332,
+                liveProgramTitle: "Al Rojo Vivo",
+                liveProgramProgress: 0.955
             )
         ]
     }
@@ -119,7 +148,7 @@ struct ObjectMother {
     }
 
     static var currentTime: Date {
-        Date(timeIntervalSince1970: TimeInterval(1659338667))
+        Date(timeIntervalSince1970: TimeInterval(1659338667990 / 1000))
     }
 }
 
