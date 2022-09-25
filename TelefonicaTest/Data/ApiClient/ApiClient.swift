@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol ApiClient {
-    func getAll<T: Decodable>(path: String) -> AnyPublisher<T, TelefonicaError>
+    func get<T: Decodable>(path: String) -> AnyPublisher<T, TelefonicaError>
     // Commented because in this small project is not needed yet
 //    func post<T>(path: String, data: T) -> AnyPublisher<T, TelefonicaError>
 //    func put<T>(path: String, data: T) -> AnyPublisher<T, TelefonicaError>

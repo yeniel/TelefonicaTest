@@ -17,6 +17,6 @@ struct LiveProgramApiDataSource: LiveProgramDataSource {
         // In a real Api maybe we should pass the program id as path,
         // but for this example I hard coded it
         // ej. apiClient.getAll(path: "programs/\(id)")
-        apiClient.getAll(path: "f3c6446abeb1c5a82079")
+        apiClient.get(path: "f3c6446abeb1c5a82079")
     }
 }

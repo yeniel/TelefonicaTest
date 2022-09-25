@@ -17,6 +17,6 @@ struct ChannelApiDataSource: ChannelDataSource {
         // In a real Api maybe we should pass the channels path,
         // but for this example I hard coded it
         // ej. apiClient.getAll(path: "channels")
-        apiClient.getAll(path: "f5552c061b8cf68cffa0")
+        apiClient.get(path: "f5552c061b8cf68cffa0")
     }
 }

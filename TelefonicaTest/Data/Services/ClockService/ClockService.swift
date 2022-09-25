@@ -23,7 +23,7 @@ class ClockServiceImpl: ClockService {
         if let currentTime = cachedCurrentTime {
             return Just(currentTime).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
         } else {
-            return (apiClient.getAll(path: "f5552c061b8cf68cffa0") as AnyPublisher<CurrentTimeDto, TelefonicaError>)
+            return (apiClient.get(path: "f5552c061b8cf68cffa0") as AnyPublisher<CurrentTimeDto, TelefonicaError>)
                 .map {
                     let currentTime = Date(timeIntervalSince1970: TimeInterval($0.currentTime / 1000))
                     self.cachedCurrentTime = currentTime

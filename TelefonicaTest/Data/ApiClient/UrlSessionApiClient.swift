@@ -12,7 +12,7 @@ struct UrlSessionApiClient: ApiClient {
     static let host = "https://api.npoint.io"
     let decoder: JSONDecoder = .init()
 
-    func getAll<T: Decodable>(path: String) -> AnyPublisher<T, TelefonicaError> {
+    func get<T: Decodable>(path: String) -> AnyPublisher<T, TelefonicaError> {
         URLSession.shared
             .dataTaskPublisher(for: configureUrlRequest(path: path))
             .tryMap { result -> T in

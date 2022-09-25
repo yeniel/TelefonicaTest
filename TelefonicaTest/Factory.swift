@@ -5,8 +5,9 @@
 //  Created by Yeniel Landestoy on 23/9/22.
 //
 
-import Foundation
 import Factory
+import Foundation
+import Stinsen
 
 extension Container {
     // MARK: Repositories
@@ -32,6 +33,5 @@ extension Container {
     static let getCurrentTimeUseCase = Factory { GetCurrentTimeUseCase() }
     static let isProgramAvailableUseCase = Factory { IsProgramAvailableUseCase() }
 
-    // MARK: Managers, helpers
-
+    // MARK: Others
 }
