@@ -31,10 +31,8 @@ struct LiveProgramView: View {
                             image
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                        } else if phase.error != nil {
-                            Image(systemName: "photo.tv")
                         } else {
-                            ProgressView()
+                            Image(systemName: "photo.tv")
                         }
                     }
                     Text(viewModel.liveProgram.title)
