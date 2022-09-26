@@ -8,7 +8,8 @@ This is my impletation for the Movistar Technical Tryout
 2. [Third Party](#thirdparty)
 3. [Architecture and Design Patterns](#architecture)
 4. [Unit Tests](#unittests)
-5. [Other considerations](#otherconsiderations)
+5. [CI](#ci)
+6. [Other considerations](#otherconsiderations)
 
 
 ### Installation
@@ -113,6 +114,9 @@ The **coverage** is **90,4%**
 - ViewModels: Test presentation logic
 - Views: Snapshot to test all the design. The snapshot images are in TelefonicaTestTests/Presentation/Snapshots
 - UI Tests: I didn't make test for the tap of a channel. I think I covered with the routing test in the viewmodel
+
+### CI
+I choose *Codemagic* as CI because I am used to it. I created a workflow 
 
 ### Other considerations
 ##### App Transport Security
