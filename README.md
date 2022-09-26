@@ -118,7 +118,7 @@ The **coverage** is **90,4%**
 - UITests: I didn't do test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
 
 ## CI
-I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README
+I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README, and if you click on it you will see the Bitrise builds
 
 ## Other considerations
 #### App Transport Security
