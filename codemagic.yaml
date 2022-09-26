@@ -20,5 +20,5 @@ workflows:
             xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
       - name: Tests
         script: |
-            xcrun simctl list
-            
+            xcrun simctl boot 8CEB7AD4-02CB-43C0-8C0D-7876D1655CB9
+
