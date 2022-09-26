@@ -6,12 +6,12 @@
 
 ## Table of contents
 
-1. [Installation](#install)
-2. [Third Party](#thirdparty)
-3. [Architecture and Design Patterns](#architecture)
-4. [Unit Tests](#unittests)
+1. [Installation](#installation)
+2. [Third Party](#third-party)
+3. [Architecture and Design Patterns](#architecture-and-design-patterns)
+4. [Unit Tests](#unit-tests)
 5. [CI](#ci)
-6. [Other considerations](#otherconsiderations)
+6. [Other considerations](#other-considerations)
 
 
 ## Installation
@@ -54,17 +54,17 @@ I tried to follow the bases of a **Clean Architecture** and the **SOLID** princi
 #### Channel List and Live Program
 I implemented the **repository pattern** for channel list request and live program request. The repository pattern is good to manage collection of items. For currentTime I used a service.
 
-The concrete implementation of the api client is based in *URLSession*.
-I only implemented one data source which is the api data source. But this design pattern let the code prepared to implement a cache system. The concrete implementation of this local data source could be based on *Core Data* or *Realm*.
+The concrete implementation of the api client is based in `URLSession`.
+I only implemented one data source which is the api data source. But this design pattern let the code prepared to implement a cache system. The concrete implementation of this local data source could be based on `CoreData` or *Realm*.
 The cache logic have to be added in the repository class and this logic will decide how and when  each data source is used. 
 The expiry of the cache could be received from the backend and also will managed in the repository class.
 In my opinion a memory data source is not needed. It can be managed directly in the repository.
 
 #### Current Time
-I implemented a service *(ClockService)* to get the *currentTime* from the backend. I separated then from the channel list to separate responsabilities. In the future maybe the *currentTime* could be retrieved in a separated request.
+I implemented a service (`ClockService`) to get the `currentTime` from the backend. I separated then from the channel list to separate responsabilities. In the future maybe the `currentTime` could be retrieved in a separated request.
 
 #### Dtos
-I used data transfer object to parse the json from the request using the **Codable** protocol
+I used data transfer object to parse the json from the request using the `Codable` protocol
 
 #### Dto Mapper
 I implemented a mapper to map the dtos to domain models
@@ -73,9 +73,9 @@ I implemented a mapper to map the dtos to domain models
 #### Models
 Core models of the business.
 I designed the *live program* model separated from the *program* model. Then a *program* could be a *live program* or a VOD program (recorded one eg. La Resistencia).
-The relation is with **composition** instead of inheritance
+The relation is with **composition** instead of **inheritance**
 
-The model *TelefonicaError* is used through all the app to map the errors to a business error.
+The model `TelefonicaError` is used through all the app to map the errors to a business error.
 
 #### Use Cases
 I used use cases to add the business logic. I assumed that the following restriction "only show details of 24677 program" was a business rule. Maybe it is not, but I used it to show how the use cases work.
@@ -91,13 +91,13 @@ The view models contain the presentation logic
 I used the *Stinsen* package to deacoplate the navigation logic from the views using the coordinator pattern. This approach helps me to test better in case I have to add more complexity to the navigation in the future.
 
 #### UI Models and Mapper
-I mapped domain models to ui models. The intention is to give the views a more specific models and avoid adding logic to it (eg. progress calculation). Also give the view only the data that it needs. Also the access to the properties is quicker (eg. *ChannelUIModel.title* instead of *Channel.liveProgram.program.title*)
+I mapped domain models to ui models. The intention is to give the views a more specific models and avoid adding logic to it (eg. progress calculation). Also give the view only the data that it needs. Also the access to the properties is quicker (eg. `ChannelUIModel.title` instead of `Channel.liveProgram.program.title`)
 
 ## Unit Tests
 
-I used *Quick* for all tests and *Nimble* for the assertions. The *ObjectMother* provides me mocked models. I try to follow as much as I can **FIRST** principles
+I used *Quick* for all tests and *Nimble* for the assertions. The `ObjectMother` provides me mocked models. I try to follow as much as I can **FIRST** principles
 
-To increase the speed I change a little the entry point of the app (*TelefonicaTestApp.swift*).
+To increase the speed I change a little the entry point of the app (`TelefonicaTestApp.swift`).
 I cut the app to a simple view in case we are running the tests.
 I also configured the scheme to randomize the execution order.
 
@@ -118,7 +118,7 @@ The **coverage** is **90,4%**
 - UITests: I didn't do test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
 
 ## CI
-I chose *Bitrise* as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README
+I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README
 
 ## Other considerations
 #### App Transport Security
@@ -143,6 +143,6 @@ I chose *Bitrise* as CI. I created a workflow with a trigger on every push on ma
 - The url image for "Canal Cuatro" returns a 404. I put a SF Symbol icon as placeholder.
 - Knwon issues
 	- There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to Xcode 14
-	- In the console appears the message "NavigationLink presenting a value must appear inside a NavigationContent-based NavigationView. Link will be disabled.". I think that could be related with the Stinsen package
+	- In the console appears the message *"NavigationLink presenting a value must appear inside a NavigationContent-based NavigationView. Link will be disabled."*. I think that could be related with the Stinsen package
 
 
