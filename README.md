@@ -116,7 +116,7 @@ The **coverage** is **90,4%**
 - UI Tests: I didn't make test for the tap of a channel. I think I covered with the routing test in the viewmodel
 
 ### CI
-I choose *Codemagic* as CI because I am used to it. I created a workflow 
+I choose *Codemagic* as CI because I am used to it. I created a workflow which will be launched on every push on master branch.
 
 ### Other considerations
 ##### App Transport Security

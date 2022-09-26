@@ -23,6 +23,7 @@
 		FE27BB1228E1133C00BA4C4D /* UrlSessionApiClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB1128E1133C00BA4C4D /* UrlSessionApiClientSpec.swift */; };
 		FE27BB1428E1184E00BA4C4D /* channel_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FE27BB1328E1184E00BA4C4D /* channel_list.json */; };
 		FE27BB1628E11CE300BA4C4D /* live_program.json in Resources */ = {isa = PBXBuildFile; fileRef = FE27BB1528E11CE300BA4C4D /* live_program.json */; };
+		FE5AAE7C28E20DBA00746C13 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = FE5AAE7B28E20DBA00746C13 /* codemagic.yaml */; };
 		FEA2499228E0B164007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
 		FEA2499428E0B23C007328B5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
 		FEA2499528E0B28B007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
@@ -151,6 +152,7 @@
 		FE27BB1128E1133C00BA4C4D /* UrlSessionApiClientSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionApiClientSpec.swift; sourceTree = "<group>"; };
 		FE27BB1328E1184E00BA4C4D /* channel_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = channel_list.json; sourceTree = "<group>"; };
 		FE27BB1528E11CE300BA4C4D /* live_program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = live_program.json; sourceTree = "<group>"; };
+		FE5AAE7B28E20DBA00746C13 /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FEA2499128E0B164007328B5 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		FEA2499328E0B23C007328B5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 		FED2EEB028DDC9540052EF2E = {
 			isa = PBXGroup;
 			children = (
+				FE5AAE7B28E20DBA00746C13 /* codemagic.yaml */,
 				FED2EEBB28DDC9540052EF2E /* TelefonicaTest */,
 				FED2EED128DDC9580052EF2E /* TelefonicaTestTests */,
 				FED2EEDB28DDC9580052EF2E /* TelefonicaTestUITests */,
@@ -716,6 +719,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5AAE7C28E20DBA00746C13 /* codemagic.yaml in Resources */,
 				FED2EEC428DDC9570052EF2E /* Preview Assets.xcassets in Resources */,
 				FED2EEC128DDC9570052EF2E /* Assets.xcassets in Resources */,
 			);

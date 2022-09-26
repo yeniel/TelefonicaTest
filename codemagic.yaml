@@ -1,0 +1,20 @@
+workflows:
+  ios-workflow:
+    name: ios_workflow
+    environment:
+      groups:
+      vars:
+        XCODE_WORKSPACE: "TelefonicaTest.xcworkspace"
+        XCODE_SCHEME: "TelefonicaTest"
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: master
+          include: true
+          source: true
+    scripts:
+      - name: Run tests
+        script: xcode-project run-tests --workspace "$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
