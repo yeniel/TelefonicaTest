@@ -13,6 +13,7 @@ import Nimble
 class ChannelListViewSnapshotSpec: QuickSpec {
     override func spec() {
         isRecording = false
+        SnapshotTesting.diffTool = "ksdiff"
 
         beforeEach {
             Container.Registrations.push()

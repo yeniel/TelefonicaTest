@@ -154,8 +154,8 @@ struct ObjectMother {
             cover: URL(string: "https://imagenes.atresplayer.com/atp/clipping/cmsimages02/2021/09/02/B5277B5E-077F-41BA-8D73-399D2ECF12AC//1280x720.jpg"),
             title: "Espejo Pulico",
             description: "Espejo Publico es el magacn informativo matinal de Antena3 producido por Antena3 Noticias y presentado por Susanna Griso",
-            start: "08:30",
-            end: "10:30",
+            start: "06:30",
+            end: "08:30",
             progress: 0.54625
         )
     }

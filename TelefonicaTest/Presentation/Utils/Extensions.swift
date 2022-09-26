@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import Factory
 
 extension Date {
     var onlyTime: String {
-        let dateFormatter = DateFormatter()
+        let dateFormatter = Container.dateFormatter()
 
         dateFormatter.dateFormat = "HH:mm"
 

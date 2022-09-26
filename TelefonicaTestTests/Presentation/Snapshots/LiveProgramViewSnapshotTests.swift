@@ -14,6 +14,7 @@ import Foundation
 class LiveProgramViewSnapshotSpec: QuickSpec {
     override func spec() {
         isRecording = false
+        SnapshotTesting.diffTool = "ksdiff"
 
         beforeEach {
             Container.Registrations.push()
@@ -38,6 +39,13 @@ class LiveProgramViewSnapshotSpec: QuickSpec {
         func setupMocks() {
             Container.getLiveProgramUseCase.register { MockGetLiveProgramUseCase() }
             Container.getCurrentTimeUseCase.register { MockGetCurrentTimeUseCase() }
+            Container.dateFormatter.register {
+                let dateFormatter = DateFormatter()
+
+                dateFormatter.timeZone = TimeZone(identifier: "GMT")
+
+                return dateFormatter
+            }
         }
     }
 }

@@ -40,6 +40,13 @@ class LiveProgramViewModelSpec: QuickSpec {
         func setupMocks() {
             Container.getCurrentTimeUseCase.register { MockGetCurrentTimeUseCase() }
             Container.getLiveProgramUseCase.register { MockGetLiveProgramUseCase() }
+            Container.dateFormatter.register {
+                let dateFormatter = DateFormatter()
+
+                dateFormatter.timeZone = TimeZone(identifier: "GMT")
+
+                return dateFormatter
+            }
         }
     }
 }

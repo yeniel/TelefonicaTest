@@ -34,4 +34,6 @@ extension Container {
     static let isProgramAvailableUseCase = Factory { IsProgramAvailableUseCase() }
 
     // MARK: Others
+
+    static let dateFormatter = Factory { DateFormatter() }
 }
