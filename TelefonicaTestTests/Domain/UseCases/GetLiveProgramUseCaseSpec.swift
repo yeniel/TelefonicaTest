@@ -76,15 +76,3 @@ class GetLiveProgramUseCaseSpec: QuickSpec {
         Container.liveProgramRepository.register { MockLiveProgramRepository(showError: showError) }
     }
 }
-
-struct MockLiveProgramRepository: LiveProgramRepository {
-    let showError: Bool
-
-    func getLiveProgram(id: Int) -> AnyPublisher<LiveProgram, TelefonicaError> {
-        if showError {
-            return Fail(error: TelefonicaError.liveProgramNotFound).eraseToAnyPublisher()
-        } else {
-            return Just(ObjectMother.liveProgram).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
-        }
-    }
-}

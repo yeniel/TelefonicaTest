@@ -23,6 +23,7 @@ class ChannelListViewModelSpec: QuickSpec {
         afterEach {
             Container.Registrations.pop()
         }
+
         describe("GIVEN a ChannelListViewModel") {
             context("WHEN init") {
                 setupMocks()
@@ -49,7 +50,7 @@ class ChannelListViewModelSpec: QuickSpec {
             }
 
             context("WHEN route to program and program is not available") {
-                it("THEN publish showError as true") {
+                it("THEN publishs showError as true") {
                     setupMocks(isProgramAvailable: false)
                     let viewModel = ChannelListViewModel(coordinator: mockCoordinator)
 
@@ -77,37 +78,5 @@ class ChannelListViewModelSpec: QuickSpec {
 
             RouterStore.shared.store(router: mockNavigationRouter)
         }
-    }
-}
-
-class MockGetChannelsUseCase: GetChannelsUseCase {
-    override func execute() -> AnyPublisher<[Channel], TelefonicaError> {
-        Just(ObjectMother.channelListSortedById).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
-    }
-}
-
-class MockGetCurrentTimeUseCase: GetCurrentTimeUseCase {
-    override func execute() -> AnyPublisher<Date, TelefonicaError> {
-        Just(ObjectMother.currentTime).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
-    }
-}
-
-class MockIsProgramAvailableUseCase: IsProgramAvailableUseCase {
-    let available: Bool
-
-    init(available: Bool) {
-        self.available = available
-    }
-
-    override func execute(programId: Int) -> Bool {
-        return available
-    }
-}
-
-final class MockMainCoordinator: MainCoordinatorProtocol {
-    var routed: Bool = false
-
-    func routeToLiveProgram(id: Int) {
-        routed = true
     }
 }

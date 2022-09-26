@@ -48,11 +48,3 @@ class GetCurrentTimeUseCaseSpec: QuickSpec {
         Container.clockService.register { MockClockService() }
     }
 }
-
-struct MockClockService: ClockService {
-    var currentTime: AnyPublisher<Date, TelefonicaError> {
-        Just(ObjectMother.currentTime)
-            .setFailureType(to: TelefonicaError.self)
-            .eraseToAnyPublisher()
-    }
-}

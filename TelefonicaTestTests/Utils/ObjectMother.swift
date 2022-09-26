@@ -163,6 +163,62 @@ struct ObjectMother {
     static var currentTime: Date {
         Date(timeIntervalSince1970: TimeInterval(1659338667990 / 1000))
     }
+
+    static var currentTimeDto: CurrentTimeDto {
+        CurrentTimeDto(currentTime: 1659338667990)
+    }
+
+    static var liveProgramDto: LiveProgramDto {
+        LiveProgramDto(
+            id: 24677,
+            title: "Espejo Pulico",
+            cover: "https://imagenes.atresplayer.com/atp/clipping/cmsimages02/2021/09/02/B5277B5E-077F-41BA-8D73-399D2ECF12AC//1280x720.jpg",
+            category: "live",
+            description: "Espejo Publico es el magacn informativo matinal de Antena3 producido por Antena3 Noticias y presentado por Susanna Griso",
+            start: "1659335400000",
+            end: "1659342600000"
+        )
+    }
+
+    static var channelListDto: ChannelListDto {
+        ChannelListDto(
+            channels: [
+                ChannelDto(
+                    id: 3,
+                    logo: "http://www.movistarplus.es/recorte/m-DP/mux/A3.png",
+                    name: "Antena 3",
+                    channelLiveProgram: ChannelLiveProgramDto(
+                        id: 24677,
+                        title: "Espejo PÃºblico",
+                        start: "1659335400000",
+                        end: "1659342600000"
+                    )
+                ),
+                ChannelDto(
+                    id: 1,
+                    logo: "http://www.movistarplus.es/recorte/m-DP/mux/TVE.png",
+                    name: "TVE",
+                    channelLiveProgram: ChannelLiveProgramDto(
+                        id: 12304,
+                        title: "Mundial FÃºtbol Femenino: EspaÃ±a - Italia",
+                        start: "1659338100000",
+                        end: "1659344400000"
+                    )
+                ),
+                ChannelDto(
+                    id: 6,
+                    logo: "http://www.movistarplus.es/recorte/m-DP/mux/SEXTA.png",
+                    name: "La Sexta",
+                    channelLiveProgram: ChannelLiveProgramDto(
+                        id: 12332,
+                        title: "Al Rojo Vivo",
+                        start: "1659338100000",
+                        end: "1659350700000"
+                    )
+                ),
+            ]
+        )
+    }
 }
 
 // swiftlint:enable line_length

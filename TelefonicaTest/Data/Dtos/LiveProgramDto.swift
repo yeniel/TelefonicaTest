@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LiveProgramDto: Codable {
+struct LiveProgramDto: Codable, Equatable {
     let id: Int
     let title: String
     let cover: String
@@ -24,5 +24,15 @@ struct LiveProgramDto: Codable {
         case start = "start_time"
         case end = "end_time"
         case description
+    }
+
+    static func == (lhs: LiveProgramDto, rhs: LiveProgramDto) -> Bool {
+        lhs.id == rhs.id
+            && lhs.title == rhs.title
+            && lhs.cover == rhs.cover
+            && lhs.category == rhs.category
+            && lhs.description == rhs.description
+            && lhs.start == rhs.start
+            && lhs.end == rhs.end
     }
 }

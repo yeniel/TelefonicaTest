@@ -48,9 +48,3 @@ class GetChannelsUseCaseSpec: QuickSpec {
         Container.channelRepository.register { MockChannelRepository() }
     }
 }
-
-struct MockChannelRepository: ChannelRepository {
-    func getChannels() -> AnyPublisher<[Channel], TelefonicaError> {
-        Just(ObjectMother.channelList).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
-    }
-}

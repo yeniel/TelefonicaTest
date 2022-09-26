@@ -15,6 +15,14 @@
 		FE27BAF828E0D52600BA4C4D /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = FE27BAF728E0D52600BA4C4D /* SnapshotTesting */; };
 		FE27BAFA28E0D55600BA4C4D /* ChannelListViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BAF928E0D55600BA4C4D /* ChannelListViewSnapshotTests.swift */; };
 		FE27BB0028E0FA5F00BA4C4D /* LiveProgramViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BAFF28E0FA5F00BA4C4D /* LiveProgramViewSnapshotTests.swift */; };
+		FE27BB0728E1039F00BA4C4D /* ClockServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB0628E1039F00BA4C4D /* ClockServiceSpec.swift */; };
+		FE27BB0928E105A400BA4C4D /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB0828E105A400BA4C4D /* Mocks.swift */; };
+		FE27BB0B28E109D700BA4C4D /* LiveProgramRepositorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB0A28E109D700BA4C4D /* LiveProgramRepositorySpec.swift */; };
+		FE27BB0D28E10B3800BA4C4D /* ChannelRepositorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB0C28E10B3800BA4C4D /* ChannelRepositorySpec.swift */; };
+		FE27BB1028E1132200BA4C4D /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FE27BB0F28E1132200BA4C4D /* OHHTTPStubsSwift */; };
+		FE27BB1228E1133C00BA4C4D /* UrlSessionApiClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27BB1128E1133C00BA4C4D /* UrlSessionApiClientSpec.swift */; };
+		FE27BB1428E1184E00BA4C4D /* channel_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FE27BB1328E1184E00BA4C4D /* channel_list.json */; };
+		FE27BB1628E11CE300BA4C4D /* live_program.json in Resources */ = {isa = PBXBuildFile; fileRef = FE27BB1528E11CE300BA4C4D /* live_program.json */; };
 		FEA2499228E0B164007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
 		FEA2499428E0B23C007328B5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499328E0B23C007328B5 /* AppCoordinator.swift */; };
 		FEA2499528E0B28B007328B5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2499128E0B164007328B5 /* MainCoordinator.swift */; };
@@ -37,7 +45,6 @@
 		FEAF0B8828DF8BD200998A0D /* DtoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2B28DDF6880052EF2E /* DtoMapper.swift */; };
 		FEAF0B8928DF8BD600998A0D /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0C28DDE1C30052EF2E /* ClockService.swift */; };
 		FEAF0B8A28DF8BDB00998A0D /* LiveProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF2228DDF2530052EF2E /* LiveProgram.swift */; };
-		FEAF0B8B28DF8BDB00998A0D /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0E28DDE2070052EF2E /* Clock.swift */; };
 		FEAF0B8C28DF8BDB00998A0D /* TelefonicaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */; };
 		FEAF0B8D28DF8BDB00998A0D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0628DDE0100052EF2E /* Channel.swift */; };
 		FEAF0B8E28DF8BDB00998A0D /* ProgramCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */; };
@@ -74,7 +81,6 @@
 		FED2EF0528DDDD8F0052EF2E /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */; };
 		FED2EF0728DDE0100052EF2E /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0628DDE0100052EF2E /* Channel.swift */; };
 		FED2EF0D28DDE1C30052EF2E /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0C28DDE1C30052EF2E /* ClockService.swift */; };
-		FED2EF0F28DDE2070052EF2E /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF0E28DDE2070052EF2E /* Clock.swift */; };
 		FED2EF1228DDE3B20052EF2E /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1128DDE3B20052EF2E /* Factory.swift */; };
 		FED2EF1428DDE4630052EF2E /* ChannelApiDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */; };
 		FED2EF1628DDE4A00052EF2E /* ChannelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */; };
@@ -138,6 +144,13 @@
 		FE27BAF428E0BDEA00BA4C4D /* LiveProgramViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramViewModelSpec.swift; sourceTree = "<group>"; };
 		FE27BAF928E0D55600BA4C4D /* ChannelListViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewSnapshotTests.swift; sourceTree = "<group>"; };
 		FE27BAFF28E0FA5F00BA4C4D /* LiveProgramViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramViewSnapshotTests.swift; sourceTree = "<group>"; };
+		FE27BB0628E1039F00BA4C4D /* ClockServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockServiceSpec.swift; sourceTree = "<group>"; };
+		FE27BB0828E105A400BA4C4D /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		FE27BB0A28E109D700BA4C4D /* LiveProgramRepositorySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveProgramRepositorySpec.swift; sourceTree = "<group>"; };
+		FE27BB0C28E10B3800BA4C4D /* ChannelRepositorySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepositorySpec.swift; sourceTree = "<group>"; };
+		FE27BB1128E1133C00BA4C4D /* UrlSessionApiClientSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionApiClientSpec.swift; sourceTree = "<group>"; };
+		FE27BB1328E1184E00BA4C4D /* channel_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = channel_list.json; sourceTree = "<group>"; };
+		FE27BB1528E11CE300BA4C4D /* live_program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = live_program.json; sourceTree = "<group>"; };
 		FE5ECA7B28DE7D390029DC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FEA2499128E0B164007328B5 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = TelefonicaTest/Presentation/MainCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		FEA2499328E0B23C007328B5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -160,7 +173,6 @@
 		FED2EF0428DDDD8F0052EF2E /* ChannelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepository.swift; sourceTree = "<group>"; };
 		FED2EF0628DDE0100052EF2E /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		FED2EF0C28DDE1C30052EF2E /* ClockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockService.swift; sourceTree = "<group>"; };
-		FED2EF0E28DDE2070052EF2E /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		FED2EF1128DDE3B20052EF2E /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		FED2EF1328DDE4630052EF2E /* ChannelApiDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelApiDataSource.swift; sourceTree = "<group>"; };
 		FED2EF1528DDE4A00052EF2E /* ChannelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDataSource.swift; sourceTree = "<group>"; };
@@ -211,6 +223,7 @@
 				FED2EEF228DDCE240052EF2E /* Nimble in Frameworks */,
 				FE27BAF828E0D52600BA4C4D /* SnapshotTesting in Frameworks */,
 				FED2EEEF28DDCE040052EF2E /* Quick in Frameworks */,
+				FE27BB1028E1132200BA4C4D /* OHHTTPStubsSwift in Frameworks */,
 				7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +265,12 @@
 		FEAF0B7328DF89A000998A0D /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				FE27BB1528E11CE300BA4C4D /* live_program.json */,
+				FE27BB1328E1184E00BA4C4D /* channel_list.json */,
+				FE27BB0628E1039F00BA4C4D /* ClockServiceSpec.swift */,
+				FE27BB0A28E109D700BA4C4D /* LiveProgramRepositorySpec.swift */,
+				FE27BB0C28E10B3800BA4C4D /* ChannelRepositorySpec.swift */,
+				FE27BB1128E1133C00BA4C4D /* UrlSessionApiClientSpec.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -288,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				FEAF0B9128DF8C1A00998A0D /* ObjectMother.swift */,
+				FE27BB0828E105A400BA4C4D /* Mocks.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -425,7 +445,6 @@
 			children = (
 				FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */,
 				FED2EF0628DDE0100052EF2E /* Channel.swift */,
-				FED2EF0E28DDE2070052EF2E /* Clock.swift */,
 				FED2EF1E28DDF1720052EF2E /* ProgramCategory.swift */,
 				FED2EF2028DDF1C20052EF2E /* Program.swift */,
 				FED2EF2228DDF2530052EF2E /* LiveProgram.swift */,
@@ -614,6 +633,7 @@
 				FED2EEEE28DDCE040052EF2E /* Quick */,
 				FED2EEF128DDCE240052EF2E /* Nimble */,
 				FE27BAF728E0D52600BA4C4D /* SnapshotTesting */,
+				FE27BB0F28E1132200BA4C4D /* OHHTTPStubsSwift */,
 			);
 			productName = TelefonicaTestTests;
 			productReference = FED2EECE28DDC9580052EF2E /* TelefonicaTestTests.xctest */;
@@ -678,6 +698,7 @@
 				FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */,
 				FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */,
 				FE27BAF628E0D52600BA4C4D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
 			);
 			productRefGroup = FED2EEBA28DDC9540052EF2E /* Products */;
 			projectDirPath = "";
@@ -704,6 +725,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE27BB1628E11CE300BA4C4D /* live_program.json in Resources */,
+				FE27BB1428E1184E00BA4C4D /* channel_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,7 +854,6 @@
 				FED6D03428DF3FB300AFD2CB /* LiveProgramViewModel.swift in Sources */,
 				FED2EF0528DDDD8F0052EF2E /* ChannelRepository.swift in Sources */,
 				FED2EF1F28DDF1720052EF2E /* ProgramCategory.swift in Sources */,
-				FED2EF0F28DDE2070052EF2E /* Clock.swift in Sources */,
 				FED2EF4028DE5FE20052EF2E /* ChannelListView.swift in Sources */,
 				FED6D03828DF441A00AFD2CB /* LiveProgramUIModel.swift in Sources */,
 				FED2EF2728DDF3DC0052EF2E /* LiveProgramApiDataSource.swift in Sources */,
@@ -874,18 +896,22 @@
 				FEAF0BA728DF91EA00998A0D /* LiveProgramViewModel.swift in Sources */,
 				FEAF0B9528DF91AD00998A0D /* UrlSessionApiClient.swift in Sources */,
 				FEAF0B8F28DF8BDB00998A0D /* Program.swift in Sources */,
+				FE27BB0928E105A400BA4C4D /* Mocks.swift in Sources */,
 				FEAF0BAF28DF91EA00998A0D /* ChannelUIModel.swift in Sources */,
 				FEAF0BB228DFA80300998A0D /* GetLiveProgramUseCaseSpec.swift in Sources */,
 				FEAF0B7F28DF8BC600998A0D /* ChannelRepository.swift in Sources */,
 				FEAF0B7E28DF8BC600998A0D /* ChannelApiDataSource.swift in Sources */,
 				FEAF0B9428DF91AA00998A0D /* ApiClient.swift in Sources */,
 				FEAF0B8A28DF8BDB00998A0D /* LiveProgram.swift in Sources */,
+				FE27BB1228E1133C00BA4C4D /* UrlSessionApiClientSpec.swift in Sources */,
+				FE27BB0B28E109D700BA4C4D /* LiveProgramRepositorySpec.swift in Sources */,
 				FEAF0B7828DF89FD00998A0D /* GetChannelsUseCaseSpec.swift in Sources */,
 				FEAF0B8428DF8BCA00998A0D /* LiveProgramDto.swift in Sources */,
 				FEAF0BAC28DF91EA00998A0D /* TelefonicaTestApp.swift in Sources */,
+				FE27BB0D28E10B3800BA4C4D /* ChannelRepositorySpec.swift in Sources */,
 				FEAF0B8D28DF8BDB00998A0D /* Channel.swift in Sources */,
+				FE27BB0728E1039F00BA4C4D /* ClockServiceSpec.swift in Sources */,
 				FEAF0B8928DF8BD600998A0D /* ClockService.swift in Sources */,
-				FEAF0B8B28DF8BDB00998A0D /* Clock.swift in Sources */,
 				FEAF0BB028DF91EA00998A0D /* ChannelListViewModel.swift in Sources */,
 				FEAF0B8528DF8BCF00998A0D /* LiveProgramRepository.swift in Sources */,
 				FEAF0B9228DF8C1A00998A0D /* ObjectMother.swift in Sources */,
@@ -1263,6 +1289,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		FED2EEED28DDCE040052EF2E /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JosephDuffy/Quick";
@@ -1302,6 +1336,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE27BAF628E0D52600BA4C4D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		FE27BB0F28E1132200BA4C4D /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
 		};
 		FED2EEEE28DDCE040052EF2E /* Quick */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -43,9 +43,3 @@ class LiveProgramViewModelSpec: QuickSpec {
         }
     }
 }
-
-class MockGetLiveProgramUseCase: GetLiveProgramUseCase {
-    override func execute(id: Int) -> AnyPublisher<LiveProgram, TelefonicaError> {
-        Just(ObjectMother.liveProgram).setFailureType(to: TelefonicaError.self).eraseToAnyPublisher()
-    }
-}

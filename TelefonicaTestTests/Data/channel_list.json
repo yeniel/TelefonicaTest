@@ -1,0 +1,38 @@
+{
+  "channels": [
+    {
+      "id": 3,
+      "logo": "http://www.movistarplus.es/recorte/m-DP/mux/A3.png",
+      "name": "Antena 3",
+      "live_program": {
+        "id": 24677,
+        "title": "Espejo PÃºblico",
+        "end_time": "1659342600000",
+        "start_time": "1659335400000"
+      }
+    },
+    {
+      "id": 1,
+      "logo": "http://www.movistarplus.es/recorte/m-DP/mux/TVE.png",
+      "name": "TVE",
+      "live_program": {
+        "id": 12304,
+        "title": "Mundial FÃºtbol Femenino: EspaÃ±a - Italia",
+        "end_time": "1659344400000",
+        "start_time": "1659338100000"
+      }
+    },
+    {
+      "id": 6,
+      "logo": "http://www.movistarplus.es/recorte/m-DP/mux/SEXTA.png",
+      "name": "La Sexta",
+      "live_program": {
+        "id": 12332,
+        "title": "Al Rojo Vivo",
+        "end_time": "1659350700000",
+        "start_time": "1659338100000"
+      }
+    }
+  ],
+  "currentTime": 1659338667990
+}

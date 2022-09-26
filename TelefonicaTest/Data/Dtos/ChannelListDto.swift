@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct ChannelListDto: Codable {
+struct ChannelListDto: Codable, Equatable {
     let channels: [ChannelDto]
+
+    static func == (lhs: ChannelListDto, rhs: ChannelListDto) -> Bool {
+        lhs.channels == rhs.channels
+    }
 }
