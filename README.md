@@ -141,7 +141,7 @@ I chose **Bitrise** as CI. I created a workflow with a trigger on every push on 
     </dict>
 ```
 - The url image for "Canal Cuatro" returns a 404. I put a SF Symbol icon as placeholder.
-- Knwon issues
+- Known issues
 	- There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to Xcode 14
 	- In the console appears the message *"NavigationLink presenting a value must appear inside a NavigationContent-based NavigationView. Link will be disabled."*. I think that could be related with the Stinsen package
 
