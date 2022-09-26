@@ -1,5 +1,9 @@
 # Telefonica Test
 
+[![Build Status](https://app.bitrise.io/app/b461c3510d5187c1/status.svg?token=GF2fIRdDXlW0HnxxoJ1yDg&branch=master)](https://app.bitrise.io/app/b461c3510d5187c1)
+[![Language](https://img.shields.io/static/v1.svg?label=language&message=Swift%205&color=FA7343&logo=swift&style=flat-square)](https://swift.org)
+[![Platform](https://img.shields.io/static/v1.svg?label=platforms&message=iOS%20&logo=apple&style=flat-square)](https://apple.com)
+
 ## Table of contents
 
 1. [Installation](#install)
@@ -114,7 +118,7 @@ The **coverage** is **90,4%**
 - UITests: I didn't do test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
 
 ## CI
-I chose *X* as CI. I created a workflow which will be launched on every push on master branch.
+I chose *Bitrise* as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README
 
 ## Other considerations
 #### App Transport Security
@@ -137,6 +141,8 @@ I chose *X* as CI. I created a workflow which will be launched on every push on 
     </dict>
 ```
 - The url image for "Canal Cuatro" returns a 404. I put a SF Symbol icon as placeholder.
-- Knwon issue: There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to Xcode 14
+- Knwon issues
+	- There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to Xcode 14
+	- In the console appears the message "NavigationLink presenting a value must appear inside a NavigationContent-based NavigationView. Link will be disabled.". I think that could be related with the Stinsen package
 
 
