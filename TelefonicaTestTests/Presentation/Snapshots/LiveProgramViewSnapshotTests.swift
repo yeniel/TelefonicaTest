@@ -13,7 +13,7 @@ import Foundation
 
 class LiveProgramViewSnapshotSpec: QuickSpec {
     override func spec() {
-        isRecording = false
+        isRecording = true
         SnapshotTesting.diffTool = "ksdiff"
 
         beforeEach {
