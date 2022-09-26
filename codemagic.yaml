@@ -2,7 +2,6 @@ workflows:
   ios-workflow:
     name: ios_workflow
     environment:
-      groups:
       vars:
         XCODE_WORKSPACE: "TelefonicaTest.xcworkspace"
         XCODE_SCHEME: "TelefonicaTest"
