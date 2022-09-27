@@ -1,6 +1,7 @@
 # Telefonica Test
 
 [![Build Status](https://app.bitrise.io/app/b461c3510d5187c1/status.svg?token=GF2fIRdDXlW0HnxxoJ1yDg&branch=master)](https://app.bitrise.io/app/b461c3510d5187c1)
+[![codecov](https://codecov.io/gh/yeniel/TelefonicaTest/branch/master/graph/badge.svg?token=P6H8927N5F)](https://codecov.io/gh/yeniel/TelefonicaTest)
 [![Language](https://img.shields.io/static/v1.svg?label=language&message=Swift%205&color=FA7343&logo=swift&style=flat-square)](https://swift.org)
 [![Platform](https://img.shields.io/static/v1.svg?label=platforms&message=iOS%20&logo=apple&style=flat-square)](https://apple.com)
 
@@ -97,7 +98,7 @@ To increase the speed I change a little the entry point of the app (`TelefonicaT
 I cut the app to a simple view in case we are running the tests.
 I also configured the scheme to randomize the execution order.
 
-The **coverage** is **90,4%**
+The **coverage** is **90,2%**
 
 ![Coverage](ReadmeAssets/coverage_telefonica_test.png)
 
@@ -114,7 +115,12 @@ The **coverage** is **90,4%**
 - UITests: I didn't do test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
 
 ## CI
-I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README, and if you click on it you will see the Bitrise builds
+I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README, and if you click on it you will see the Bitrise builds. There also a badge of code coverage.
+
+I added the following steps:
+1. Build
+2. Run tests
+3. Send coverage to [Codecov](https://about.codecov.io/)
 
 ## Other considerations
 #### App Transport Security
