@@ -13,7 +13,6 @@ import Nimble
 class ChannelListViewSnapshotSpec: QuickSpec {
     override func spec() {
         isRecording = false
-        SnapshotTesting.diffTool = "ksdiff"
 
         beforeEach {
             Container.Registrations.push()
@@ -31,7 +30,7 @@ class ChannelListViewSnapshotSpec: QuickSpec {
 
             context("WHEN init") {
                 it("THEN snapshot match") {
-                    assertSnapshot(matching: view, as: .image(layout: .device(config: .iPhone13)))
+                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667)))
                 }
             }
         }
