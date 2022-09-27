@@ -20,11 +20,7 @@
 ```
 git clone https://github.com/yeniel/TelefonicaTest.git
 ```
-2. Go to the project root directory
-3. Install pods
-```
-pod install
-```
+2. Wait until all Swift Package Manager are fetched
 
 ## Third Party
 
