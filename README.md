@@ -5,6 +5,8 @@
 [![Language](https://img.shields.io/static/v1.svg?label=language&message=Swift%205&color=FA7343&logo=swift&style=flat-square)](https://swift.org)
 [![Platform](https://img.shields.io/static/v1.svg?label=platforms&message=iOS%20&logo=apple&style=flat-square)](https://apple.com)
 
+This is my implementation of a Telefonica Technical Test. The specification readme is [here](https://gitlab.com/kisanagi2242/movistar-technicaltryout/-/blob/main/README.md).
+
 ## Table of contents
 
 1. [Installation](#installation)
