@@ -51,7 +51,7 @@ I tried to follow the bases of a **Clean Architecture** and the **SOLID** princi
 ### Data Layer
 
 #### Channel List and Live Program
-I implemented the **repository pattern** for channel list request and live program request. The repository pattern is good to manage collection of items. For currentTime I used a service.
+I implemented the **repository pattern** for channel list request and live program request. The repository pattern is good to manage collection of items. For `currentTime` I used a service.
 
 The concrete implementation of the api client is based in `URLSession`.
 I only implemented one data source which is the api data source. But this design pattern let the code prepared to implement a cache system. The concrete implementation of this local data source could be based on `CoreData` or *Realm*.
