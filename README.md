@@ -77,11 +77,11 @@ The relation is with **composition** instead of **inheritance**
 The model `TelefonicaError` is used through all the app to map the errors to a business error.
 
 #### Use Cases
-I used use cases to add the business logic. I assumed that the following restriction "only show details of 24677 program" was a business rule. Maybe it is not, but I used it to show how the use cases work.
+I used use cases to add the business logic. I assumed that the following restriction "only show details of 24677 program" was a business rule. Maybe it is not, but I used them to show how use cases work.
 Also, use cases helps me to **deacoplate** the layers. The comunication between the presentation layer and data layer is made throught the use cases (I don't have any repository in viewmodels)
 
 ### Presentation
-I implemented the **MVVM pattern**. The views are in **SwiftUI** and I used **Combine** through all the app for asynch process.
+I implemented a **MVVM architecture**. The views are in **SwiftUI** and I used **Combine** through all the app for asynch process.
 
 #### ViewModels
 The view models contain the presentation logic
@@ -97,7 +97,7 @@ I mapped domain models to ui models. The intention is to give the views a more s
 I used *Quick* for all tests and *Nimble* for the assertions. The `ObjectMother` provides me mocked models. I try to follow as much as I can **FIRST** principles
 
 To increase the speed I change a little the entry point of the app (`TelefonicaTestApp.swift`).
-I cut the app to a simple view in case we are running the tests.
+In the app initialization I cut it to a simple view when we are running the tests.
 I also configured the scheme to randomize the execution order.
 
 The **coverage** is **90,2%**
@@ -105,7 +105,7 @@ The **coverage** is **90,2%**
 ![Coverage](ReadmeAssets/coverage_telefonica_test.png)
 
 #### Data
-- Repositories: Test map dto to domain model.
+- Repositories: Test map of dto to domain model.
 - UrlSessionApiClient: Test json parse to Codable Dtos. I used OHHTTPStubs to stub request using mocked jsons.
 
 #### Domain
@@ -114,7 +114,7 @@ The **coverage** is **90,2%**
 #### Presentation
 - ViewModels: Test presentation logic.
 - Views: Snapshots to test all the design. The snapshot images are in TelefonicaTestTests/Presentation/Snapshots
-- UITests: I didn't do test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
+- UITests: I didn't do a test for the tap of a channel. I think I covered it with the routing test in the viewmodel.
 
 ## CI
 I chose **Bitrise** as CI. I created a workflow with a trigger on every push on master branch. You can see the badge of the status in the top of this README, and if you click on it you will see the Bitrise builds. There also a badge of code coverage.
@@ -146,7 +146,7 @@ I added the following steps:
 ```
 - The url image for "Canal Cuatro" returns a 404. I put a SF Symbol icon as placeholder.
 - Known issues
-	- There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to Xcode 14
+	- There is a warning in the project: *"ProgressView initialized with an out-of-bounds progress value. The value will be clamped to the range of `0...total`."* I could not clamp the *progress* var to the range *0.0...11.0*. I am not sure but I guess this warning is related to the brand new Xcode 14
 	- In the console appears the message *"NavigationLink presenting a value must appear inside a NavigationContent-based NavigationView. Link will be disabled."*. I think that could be related with the Stinsen package
 
 
