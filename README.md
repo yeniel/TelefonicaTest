@@ -33,7 +33,7 @@ git clone https://github.com/yeniel/TelefonicaTest.git
 	- [Factory](https://github.com/hmlongco/Factory): Dependency injector, it uses container-based dependency injection pattern
 	- [Stinsen](https://github.com/rundfunk47/stinsen): Router, it uses the coordinator pattern
 	- [Quick - Nimble](https://github.com/Quick/Quick): Unit tests and assertions
-	- [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing): I used to work with facebook pod. Afterwords I used uber pod. This time I want to try the new one from Point Free guys.
+	- [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing): I used to work with facebook pod. Afterward I used uber pod. This time I want to try the new one from Point Free guys.
 	- [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs): Stub network requests to test data layer.
 
 ## Architecture and Design Patterns
