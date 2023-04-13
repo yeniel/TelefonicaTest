@@ -29,8 +29,14 @@ class ChannelListViewSnapshotSpec: QuickSpec {
             let view = ChannelListView(viewModel: viewModel)
 
             context("WHEN init") {
-                it("THEN snapshot match") {
-                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667)))
+                it("THEN snapshot match darl") {
+                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667), traits: .init(userInterfaceStyle: .light)))
+                }
+            }
+
+            context("WHEN init") {
+                it("THEN snapshot match darl") {
+                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667), traits: .init(userInterfaceStyle: .dark)))
                 }
             }
         }
