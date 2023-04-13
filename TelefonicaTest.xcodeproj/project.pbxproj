@@ -73,8 +73,6 @@
 		FED2EEBD28DDC9540052EF2E /* TelefonicaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEBC28DDC9540052EF2E /* TelefonicaTestApp.swift */; };
 		FED2EEC128DDC9570052EF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC028DDC9570052EF2E /* Assets.xcassets */; };
 		FED2EEC428DDC9570052EF2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2EEC328DDC9570052EF2E /* Preview Assets.xcassets */; };
-		FED2EEEF28DDCE040052EF2E /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEEE28DDCE040052EF2E /* Quick */; };
-		FED2EEF228DDCE240052EF2E /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF128DDCE240052EF2E /* Nimble */; };
 		FED2EEF528DDCE520052EF2E /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FED2EEF428DDCE520052EF2E /* Factory */; };
 		FED2EEFD28DDD63F0052EF2E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFC28DDD63F0052EF2E /* ApiClient.swift */; };
 		FED2EF0028DDD6E90052EF2E /* TelefonicaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2EEFF28DDD6E90052EF2E /* TelefonicaError.swift */; };
@@ -113,6 +111,7 @@
 		FED6D03C28DF49C800AFD2CB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D03B28DF49C800AFD2CB /* Extensions.swift */; };
 		FED6D04128DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
 		FED7D7AE28E062E4004D48D8 /* ChannelListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */; };
+		FED86D8929BCBFA3004637E6 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = FED86D8829BCBFA3004637E6 /* Quick */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,10 +221,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED2EEF228DDCE240052EF2E /* Nimble in Frameworks */,
 				FE27BAF828E0D52600BA4C4D /* SnapshotTesting in Frameworks */,
-				FED2EEEF28DDCE040052EF2E /* Quick in Frameworks */,
 				FE27BB1028E1132200BA4C4D /* OHHTTPStubsSwift in Frameworks */,
+				FED86D8929BCBFA3004637E6 /* Quick in Frameworks */,
 				7B86F7BF5BFA5410D95BD6C8 /* Pods_TelefonicaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,10 +360,10 @@
 		FED2EED128DDC9580052EF2E /* TelefonicaTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				FEAF0B9028DF8C1000998A0D /* Utils */,
-				FEAF0B7528DF89A600998A0D /* Presentation */,
-				FEAF0B7428DF89A400998A0D /* Domain */,
 				FEAF0B7328DF89A000998A0D /* Data */,
+				FEAF0B7428DF89A400998A0D /* Domain */,
+				FEAF0B7528DF89A600998A0D /* Presentation */,
+				FEAF0B9028DF8C1000998A0D /* Utils */,
 			);
 			path = TelefonicaTestTests;
 			sourceTree = "<group>";
@@ -382,10 +380,10 @@
 		FED2EEF628DDCE670052EF2E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EF0A28DDE1B00052EF2E /* Services */,
 				FED2EEFB28DDD59A0052EF2E /* ApiClient */,
-				FED2EEFA28DDD5690052EF2E /* Repositories */,
 				FED2EEF928DDD5670052EF2E /* Dtos */,
+				FED2EEFA28DDD5690052EF2E /* Repositories */,
+				FED2EF0A28DDE1B00052EF2E /* Services */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -393,8 +391,8 @@
 		FED2EEF728DDCE6B0052EF2E /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				FED2EF2D28DE52A20052EF2E /* UseCases */,
 				FED2EEFE28DDD6CB0052EF2E /* Models */,
+				FED2EF2D28DE52A20052EF2E /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -633,10 +631,9 @@
 			);
 			name = TelefonicaTestTests;
 			packageProductDependencies = (
-				FED2EEEE28DDCE040052EF2E /* Quick */,
-				FED2EEF128DDCE240052EF2E /* Nimble */,
 				FE27BAF728E0D52600BA4C4D /* SnapshotTesting */,
 				FE27BB0F28E1132200BA4C4D /* OHHTTPStubsSwift */,
+				FED86D8829BCBFA3004637E6 /* Quick */,
 			);
 			productName = TelefonicaTestTests;
 			productReference = FED2EECE28DDC9580052EF2E /* TelefonicaTestTests.xctest */;
@@ -696,12 +693,11 @@
 			);
 			mainGroup = FED2EEB028DDC9540052EF2E;
 			packageReferences = (
-				FED2EEED28DDCE040052EF2E /* XCRemoteSwiftPackageReference "Quick" */,
-				FED2EEF028DDCE240052EF2E /* XCRemoteSwiftPackageReference "Nimble" */,
 				FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */,
 				FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */,
 				FE27BAF628E0D52600BA4C4D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 				FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+				FED86D8729BCBFA3004637E6 /* XCRemoteSwiftPackageReference "Quick" */,
 			);
 			productRefGroup = FED2EEBA28DDC9540052EF2E /* Products */;
 			projectDirPath = "";
@@ -1303,22 +1299,6 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		FED2EEED28DDCE040052EF2E /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JosephDuffy/Quick";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		FED2EEF028DDCE240052EF2E /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmlongco/Factory";
@@ -1335,6 +1315,14 @@
 				kind = branch;
 			};
 		};
+		FED86D8729BCBFA3004637E6 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1348,16 +1336,6 @@
 			package = FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
 			productName = OHHTTPStubsSwift;
 		};
-		FED2EEEE28DDCE040052EF2E /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FED2EEED28DDCE040052EF2E /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		FED2EEF128DDCE240052EF2E /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FED2EEF028DDCE240052EF2E /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
 		FED2EEF428DDCE520052EF2E /* Factory */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FED2EEF328DDCE520052EF2E /* XCRemoteSwiftPackageReference "Factory" */;
@@ -1367,6 +1345,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FED2EF3C28DE5F900052EF2E /* XCRemoteSwiftPackageReference "stinsen" */;
 			productName = Stinsen;
+		};
+		FED86D8829BCBFA3004637E6 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED86D8729BCBFA3004637E6 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

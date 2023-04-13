@@ -7,7 +7,6 @@
 
 import Factory
 import Foundation
-import Stinsen
 
 extension Container {
     // MARK: Repositories
@@ -17,6 +16,8 @@ extension Container {
 
     static let liveProgramRepository = Factory { LiveProgramRepositoryImpl() as LiveProgramRepository }
     static let liveProgramApiDataSource = Factory { LiveProgramApiDataSource() as LiveProgramDataSource }
+
+    // MARK: Services
 
     static let clockService = Factory { ClockServiceImpl() as ClockService }
     static let urlSessionApiClient = Factory { UrlSessionApiClient() as ApiClient }
