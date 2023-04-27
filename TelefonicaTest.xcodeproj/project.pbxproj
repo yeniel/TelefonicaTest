@@ -112,6 +112,7 @@
 		FED6D04128DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6D04028DF6F9700AFD2CB /* IsProgramAvailableUseCase.swift */; };
 		FED7D7AE28E062E4004D48D8 /* ChannelListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7D7AD28E062E4004D48D8 /* ChannelListViewModelSpec.swift */; };
 		FED86D8929BCBFA3004637E6 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = FED86D8829BCBFA3004637E6 /* Quick */; };
+		FEEE5F4429FB20A10007CD34 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = FEEE5F4329FB20A10007CD34 /* Nimble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEE5F4429FB20A10007CD34 /* Nimble in Frameworks */,
 				FE27BAF828E0D52600BA4C4D /* SnapshotTesting in Frameworks */,
 				FE27BB1028E1132200BA4C4D /* OHHTTPStubsSwift in Frameworks */,
 				FED86D8929BCBFA3004637E6 /* Quick in Frameworks */,
@@ -634,6 +636,7 @@
 				FE27BAF728E0D52600BA4C4D /* SnapshotTesting */,
 				FE27BB0F28E1132200BA4C4D /* OHHTTPStubsSwift */,
 				FED86D8829BCBFA3004637E6 /* Quick */,
+				FEEE5F4329FB20A10007CD34 /* Nimble */,
 			);
 			productName = TelefonicaTestTests;
 			productReference = FED2EECE28DDC9580052EF2E /* TelefonicaTestTests.xctest */;
@@ -698,6 +701,7 @@
 				FE27BAF628E0D52600BA4C4D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 				FE27BB0E28E1132200BA4C4D /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
 				FED86D8729BCBFA3004637E6 /* XCRemoteSwiftPackageReference "Quick" */,
+				FEEE5F4029FB20780007CD34 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = FED2EEBA28DDC9540052EF2E /* Products */;
 			projectDirPath = "";
@@ -1323,6 +1327,14 @@
 				version = 5.0.1;
 			};
 		};
+		FEEE5F4029FB20780007CD34 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1350,6 +1362,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FED86D8729BCBFA3004637E6 /* XCRemoteSwiftPackageReference "Quick" */;
 			productName = Quick;
+		};
+		FEEE5F4329FB20A10007CD34 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEEE5F4029FB20780007CD34 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

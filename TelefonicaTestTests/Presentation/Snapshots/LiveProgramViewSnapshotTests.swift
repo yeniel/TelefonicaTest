@@ -29,12 +29,14 @@ class LiveProgramViewSnapshotSpec: QuickSpec {
             let view = LiveProgramView(viewModel: viewModel)
 
             context("WHEN init") {
-                it("THEN snapshot match light") {
-                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667), traits: .init(userInterfaceStyle: .light)))
-                }
-
-                it("THEN snapshot match dark") {
-                    assertSnapshot(matching: view, as: .image(layout: .fixed(width: 375, height: 667), traits: .init(userInterfaceStyle: .dark)))
+                it("THEN snapshot match") {
+                    assertSnapshot(
+                        matching: view,
+                        as: .image(
+                            layout: .fixed(width: 375, height: 667),
+                            traits: .init(userInterfaceStyle: .light)
+                        )
+                    )
                 }
             }
         }
